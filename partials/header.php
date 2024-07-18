@@ -11,7 +11,7 @@
         <li><a href="mailto:yuan127775@gmail.com">Contacts</a></li>
       </div>
       <div class="resume">
-    <a href="../resume/AlicePeng_Resume.pdf" target="_blank">Resume</a>
+    <a href="../PDF/AlicePeng_Resume.pdf" target="_blank">Resume</a>
   </div>
     </nav>
   </div>
