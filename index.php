@@ -27,7 +27,7 @@
     <?php require_once("partials/header.php") ?>
     <!------------------------------------------->
     <main>
-        <div class='wrapper'>
+        
         <div class='homeIntro container grid'>
             <div class='photo col-12 col-6-md col-6-lg'>
                 
@@ -61,7 +61,7 @@
     <!----------------- footer ------------------>
     <?php require_once("partials/footer.php") ?>
     <!------------------------------------------->
-</div>
+
     <script src='./js/app.js/'></script>
     <script>
         const typed = new Typed('#element', {

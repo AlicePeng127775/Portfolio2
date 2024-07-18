@@ -75,7 +75,7 @@ ul, ol {
 }
 
 main{
-    margin:f.toRem(v.$baseUnit);
+    margin:0, f.toRem(v.$baseUnit);
 }
 
 .content-wrap {
