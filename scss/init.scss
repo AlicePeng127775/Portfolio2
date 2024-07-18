@@ -1,0 +1,14 @@
+//@use "../node_modules/bootstrap/scss/bootstrap.scss";
+@use "base/variables.scss";
+@use "base/functions.scss";
+@use "base/reset.scss";
+@use"base/grid.scss";
+@use"base/base.scss";
+
+@use"header.scss";
+@use"footer.scss";
+@use"about.scss";
+@use"contact.scss";
+@use"portfolio.scss";
+@use"home.scss";
+@use"project.scss";

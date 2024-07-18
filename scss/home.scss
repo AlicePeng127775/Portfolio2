@@ -1,0 +1,200 @@
+@use"base/variables.scss" as v;
+@use "base/functions.scss" as f;
+
+
+/*-----------------------------------*\
+  Home -- Intro
+\*-----------------------------------*/
+
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.homeIntro{
+    height: 100vh;
+    align-items: center;
+    .photo{
+      width: 100%;
+  
+      .alicePhoto{
+        width: 70%;
+        margin: 10 auto;
+        img{
+          width: 100%;
+        }
+      }
+    }
+}
+
+
+.intro{
+  color: v.$pc;
+  text-align: left;
+  align-items: center;
+
+    h1{
+        line-height: 150%;
+        font-size: v.$text-lg;
+        .alice{
+            color: v.$pink;
+        }
+    }
+
+    h5{
+      margin-top: 10px;
+      margin-bottom: 20px;
+    
+    }
+    .position{
+      opacity: 0.6;
+      font-size: v.$text-sm;
+    }
+    .nice{
+      font-style: italic;
+      opacity: 0.6;
+      font-size: v.$text-sm;
+    }
+
+             
+    .btn {
+      background-image: linear-gradient(to right, #FAACAC 0%, #F7f26d  51%, #FAACAC  100%);
+      margin-top: 30px;
+      padding: 15px 25px;
+      text-align: center;
+      text-transform: uppercase;
+      transition: 0.5s;
+      background-size: 200% auto;
+      color: v.$black;            
+      border-radius: 20px;
+      border: 0 solid;
+      display: block;
+      font-weight: bold;
+      width:auto;
+      font-size: v.$text-base;
+      text-decoration: none;
+      
+    }
+
+    .btn:hover {
+      background-position: right center; /* change the direction of the change here */
+      color: #fff;
+      text-decoration: none;
+    }
+   .contactIcon{
+      display: flex;
+      align-items: center;
+      justify-content: start;
+      gap: 25px;
+      margin-bottom: 0;
+      margin-top: 30px;
+
+  
+  div{
+      width: 40px;
+      height: 40px;
+      background-color:v.$icb;
+      border-radius: 50%;
+      color: v.$gray;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-size: v.$text-sm;
+      a{
+          i{
+              color:v.$pc;
+          }
+      }
+
+
+  }
+
+  div:hover{
+      background-color: v.$pink;
+      color: v.$black;
+      box-shadow: 0 0 5px v.$pink;
+  }
+}
+}
+
+
+@media screen and (min-width: 420px) {
+  .intro{
+    margin-top: 0;
+    h1{
+      line-height: 150%;
+    }
+  }
+}
+
+
+@media screen and (min-width: 560px) {
+  .photo{
+    width: 50%;
+
+    .alicePhoto{
+      width: 100%;
+      .img{
+        width: 200px;
+      }
+    }
+  }
+
+  .intro{
+    text-align: left;
+    h1{
+      line-height: 150%;
+      font-size: v.$text-xxl;
+    }
+    .nice, .position{
+      font-size: v.$text-sm;
+    }
+    .btn{
+      width: 200px;
+    }
+
+    .contactIcon{
+      div{
+        width: 40px;
+        height: 40px;
+        font-size: v.$text-sm;
+      }
+    }
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .photo{
+    width: 100%;
+
+    .alicePhoto{
+      width: 100%;
+      .img{
+        width: 200px;
+      }
+    }
+  }
+  .intro{
+    text-align: left;
+    h1{
+      line-height: 150%;
+      font-size: v.$text-xxxl;
+    }
+    .nice, .position{
+      font-size: v.$text-md;
+    }
+    .btn{
+      width: 200px;
+    }
+
+    .contactIcon{
+      div{
+        width: 50px;
+        height: 50px;
+        font-size: v.$text-md;
+      }
+    }
+  }
+}

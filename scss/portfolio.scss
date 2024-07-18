@@ -1,0 +1,151 @@
+@use"base/variables.scss" as v;
+@use "base/functions.scss" as f;
+
+ 
+.portfolioTitle{
+    margin: 24px auto ;
+    padding: 30px;
+    width: 95%;
+    align-items: center;
+    border: 2px solid transparent;
+    border-radius: 60px 0 60px 0;
+    background-clip: padding-box, border-box;
+    background-origin: padding-box, border-box;
+    background-image: linear-gradient(to right, #1b1b1b, #1b1b1b), linear-gradient(135deg, rgba(250, 172, 172, 0.5) 25%, rgba(0, 0, 0, 0) 100%);
+    color: v.$pc;
+    position: relative;
+  
+    p{
+        margin:20px 10% 20px;
+        line-height: 150%;
+        text-align: left;
+        color:v.$gray;
+    }
+    #lottie-animation{
+        position: absolute;
+        top:200px;
+        left: 50%;
+        transform: translate(-50%, 0);
+        width:95%; 
+        max-height:400px ;
+    }
+}
+.allProject{
+    margin-top: 420px;
+    
+    .project{
+        width: 95%;
+        margin: 20px auto;
+        background-color: #0e0e0e;
+        border-radius: 30px;
+        border: 0.5px solid #2f2f2f;
+
+        .projectImg{        
+            img{
+                width: 100%;
+            }
+        }
+
+        .projectInfo{
+
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+            text-align: start;
+            gap: 10px;
+            padding: 24px;
+            
+
+            p{
+                color:v.$gray;
+                line-height: 150%;
+                width: 100%;
+                font-size: 12px;
+            }
+            
+        h5{
+            color:v.$pc;
+        }
+
+        .btn2 {
+            background-image: linear-gradient(to right, #FAACAC 0%, #F7f26d  51%, #FAACAC  100%);
+            padding: 10px 20px;
+            text-align: center;
+            text-transform: uppercase;
+            transition: 0.5s;
+            background-size: 200% auto;
+            color: v.$black;            
+            border-radius: 20px;
+            border: 0 solid;
+            display: block;
+            font-weight: bold;
+            width: auto;
+            font-size: v.$text-base;
+            text-decoration: none;
+            
+          }
+      
+          .btn2:hover {
+            background-position: right center; /* change the direction of the change here */
+            color: #fff;
+            text-decoration: none;
+          }
+            .projectCardBottom{
+                display: flex;
+                justify-content: space-around;
+                align-items: center;
+                width: 100%;
+            }
+            .toolC{
+                display: flex;
+                margin: 10px 0;
+                justify-content: start;
+                margin-right: auto;
+            }
+        
+            .tool{
+        
+                background-color:#fff;
+                color:v.$yellow;
+                font-size: v.$text-base;
+                border-radius: 50%;
+                width: 25px;
+                height: 25px;
+                overflow: hidden;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                // border: 0.3px solid v.$pc;
+                margin-right: -7px;
+        
+        
+            
+                img{
+                    width: 110%;
+                    height: auto;      
+                }
+            }
+        }
+    }  
+ 
+}
+
+@media (min-width: 768px) {
+    .portfolioTitle{
+        width: 95%;
+
+        #lottie-animation{
+            position: absolute;
+            transform: translate(0);
+            top:-120px;
+            right: 80px;
+            width: 800px; 
+            height: 800px;
+        } 
+    }
+
+    .allProject{
+        margin-top:200px;
+    }     
+  
+}

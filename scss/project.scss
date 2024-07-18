@@ -1,0 +1,286 @@
+@use"base/variables.scss" as v;
+@use "base/functions.scss" as f;
+.singleProject{
+    .project{
+        margin-top: 400px;
+        .project1C{
+            width: 100%;
+            background-color: #F3E6F2;
+            border-radius: 60px 60px 0 0;
+            padding: 40px 20px;
+        }
+        .projectInfo {
+
+            div{
+                align-items:center;
+            }   
+            .process{
+                padding-top: 80px;
+                padding-bottom:80px ;           
+             }
+            .mockupC{
+                padding: 40px 0;
+                
+                .mockup{
+                    width: 100%;
+                    height: 75%;
+                    border-radius: 20px;
+                    overflow: hidden;
+                img{
+                    width: 100%;
+                    margin: 0 auto; 
+                }
+
+                }
+            }
+           
+            .projectIntro{
+                margin-top: 20px;
+                padding: 10px;
+              
+                h4{
+                    font-size: v.$text-md;
+                    width: 95%;
+                    margin-right: auto;
+                    line-height: 120%;
+                    
+                }
+
+                h5{
+                    font-size: v.$text-sm;
+                    line-height: 120%;
+ 
+                }
+              
+                h6{
+                    color:v.$black;
+                    line-height: 150%;
+                    width: 100%;
+                    margin-top: 20px;
+                    margin-right: auto;
+                    font-weight: 400;
+                    font-size: 12px;
+                }
+                p{
+                    color:v.$gray;
+                    line-height: 150%;
+                    width: 90%;
+                    margin-top: 20px;
+                    margin-right: auto;
+                    font-size: 10px;
+
+                }
+
+          
+            }
+        
+            .projectIMG{
+                width: auto;
+        
+                img{
+                    width: 100%;
+                }
+            }
+        
+        }
+            .projectCardBottom{
+                display: flex;
+                justify-content: space-around;
+                align-items: center;
+                width: 100%;
+            }
+            .toolC{
+                display: flex;
+                margin: 20px 0;
+                justify-content: start;
+                margin-right: auto;
+            }
+        
+            .tool{
+        
+                background-color:#fff;
+                color:v.$yellow;
+                font-size: v.$text-base;
+                border-radius: 50%;
+                width: 30px;
+                height: 30px;
+                overflow: hidden;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                border: 0.3px solid v.$pc;
+                margin-right: -7px;
+        
+        
+              
+                img{
+                    width: 110%;
+                    height: auto;      
+                }
+            }
+        } 
+      .linkBtn{
+            display: flex;
+            flex-direction: row;
+            gap: 10px;
+    
+            a{
+            
+                background-image: linear-gradient(to right, #FAACAC 0%, #F7f26d  51%, #FAACAC  100%);
+                padding: 8px 16px;
+                text-align: center;
+                text-transform: uppercase;
+                transition: 0.5s;
+                background-size: 200% auto;
+                color: v.$black;            
+                border-radius: 10px;
+                border: 0 solid;
+                display: block;
+                font-weight: bold;
+                width: auto;
+                font-size: 10px;
+                text-decoration: none;
+                margin-top: 30px;
+            
+
+            
+                i{
+                    color: v.$black;
+                    margin-right: 5px;
+                }
+            }
+            a:hover{
+                background-position: right center; /* change the direction of the change here */
+                color: #fff;
+                text-decoration: none;
+                }   
+
+            a:hover i{
+                color: #fff;
+            }
+
+        }
+    }
+
+
+.other{
+    font-size: v.$text-md;
+    color: v.$pc;
+}
+
+.ontherProject{
+    .project{
+        margin:50px auto;
+        padding: 40px;
+        background-color: #0e0e0e;
+        border-radius: 30px;
+        border: 0.5px solid #2f2f2f;
+        
+        .projectImg{        
+            img{
+                width: 100%;
+            }
+        }
+        .projectInfo{
+            text-align: start;
+            flex-grow: 1; /* 让这个部分占据剩余的高度 */
+           
+        }
+        h4{
+            font-size: v.$text-md;
+            color: v.$pc;
+            margin-top: 20px;
+            margin-bottom: 20px;
+
+
+        }
+
+        .btn2 {
+            background-image: linear-gradient(to right, #FAACAC 0%, #F7f26d  51%, #FAACAC  100%);
+            padding: 10px 20px;
+            text-align: center;
+            text-transform: uppercase;
+            transition: 0.5s;
+            background-size: 200% auto;
+            color: v.$black;            
+            border-radius: 20px;
+            border: 0 solid;
+            display: block;
+            font-weight: bold;
+            width: auto;
+            font-size: v.$text-base;
+            text-decoration: none;
+            margin-bottom: 0;
+            
+          }
+      
+          .btn2:hover {
+            background-position: right center; /* change the direction of the change here */
+            color: #fff;
+            text-decoration: none;
+          }
+    }  
+}
+
+ 
+@media (min-width: 786px)  {
+    .project{
+        margin-top: 100px;
+        .projectIntro{
+            margin-top: 20px;
+            padding: 50px;
+          
+            h4,h5,h6,p{
+               zoom:160%;
+                
+            }
+      
+        }
+
+        .projectIntro{
+    
+            padding: 40px;
+        }
+    }
+    .linkBtn{
+        zoom:160%;
+
+        a{
+        
+            background-image: linear-gradient(to right, #FAACAC 0%, #F7f26d  51%, #FAACAC  100%);
+            padding: 10px 20px;
+            text-align: center;
+            text-transform: uppercase;
+            transition: 0.5s;
+            background-size: 200% auto;
+            color: v.$black;            
+            border-radius: 20px;
+            border: 0 solid;
+            display: block;
+            font-weight: bold;
+            width: auto;
+            font-size: v.$text-base;
+            text-decoration: none;
+            margin-top: 30px;
+        
+
+        
+            i{
+                color: v.$black;
+                margin-right: 5px;
+            }
+        }
+        a:hover{
+            background-position: right center; /* change the direction of the change here */
+            color: #fff;
+            text-decoration: none;
+            }   
+
+        a:hover i{
+            color: #fff;
+        }
+
+    }
+
+}
+

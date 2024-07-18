@@ -1,0 +1,83 @@
+@use"functions.scss" as f;
+@use"variables.scss" as v;
+@import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+@font-face {
+    font-family: 'Chinese';
+    src:   url('../font/PopGothicCjkJp-SemiBold-2.ttf') format("truetype")
+  }
+
+body{
+    background-color: #101417;
+    font-size: f.toRem(32);
+    margin: auto;
+    position: relative;
+    min-height: 100vh;
+}
+
+h1{
+    font-size: v.$text-xxxl;
+    font-family: "Balsamiq Sans", sans-serif;
+    font-weight: 700;
+  
+}
+
+h2{
+    font-size: v.$text-xxl;
+    font-family: "Balsamiq Sans", sans-serif;
+    font-weight: 700;
+  
+}
+
+h3{
+    font-size: v.$text-xl;
+    font-family: "Balsamiq Sans", sans-serif;
+    font-weight: 400;
+  
+}
+
+h4{
+    font-size: v.$text-lg;
+    font-family: "Balsamiq Sans", sans-serif;
+    font-weight: 400;
+  
+}
+
+h5{
+    font-size: v.$text-md;
+    font-family: "Balsamiq Sans", sans-serif;
+    font-weight: 400;
+    color: v.$pc;
+  
+}
+
+h6{
+    font-size: v.$text-base;
+    font-family: "Montserrat", sans-serif;
+
+    font-weight: 400;
+  
+}
+
+p{
+    font-size: v.$text-base;
+    font-family: "Montserrat", sans-serif;
+    color: v.$pc;
+    
+}
+
+ul, ol {
+    margin-left: f.toRem(v.$baseUnit);
+}
+
+.chinese {
+    font-family: 'Chinese';
+}
+
+main{
+    margin:f.toRem(v.$baseUnit);
+}
+
+.content-wrap {
+    padding-bottom: 24px;    /* Footer height */
+  }

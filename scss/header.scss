@@ -1,0 +1,171 @@
+@use "base/variables.scss" as v;
+@use "base/functions.scss" as f;
+
+/*-----------------------------------*\
+  Header
+\*-----------------------------------*/
+
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 1rem;
+  height: 100px;
+  position: relative;
+
+  .logo img {
+    margin-left: 0;
+    width: 120px;
+  }
+
+  .navigation {
+    margin-left: 4rem;
+    display: none;
+  }
+  
+  .resume {
+    position: absolute;
+    right: 1rem;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+
+  .mobile-menu {
+    display: none;
+    width: 35px;
+    height: 30px;
+    position: relative;
+
+    .bar {
+      width: 100%;
+      height: 5px;
+      border-radius: 5px;
+      background-color: v.$pc;
+      transition: transform 0.3s;
+      position: absolute;
+      
+      &:nth-child(2) {
+        top: 45%;
+      }
+      
+      &:nth-child(3) {
+        bottom: 0;
+      }
+    }
+  }
+
+  // Hamburg menu animation
+  .mobile-menu.active {
+    .bar {
+      &:nth-child(1) {
+        transform: translateY(13px) rotate(-405deg);
+      }
+      &:nth-child(2) {
+        opacity: 0;
+      }
+      &:nth-child(3) {
+        transform: translateY(-13px) rotate(405deg);
+      }
+    }
+  }
+}
+
+@media (min-width: 769px) {
+  header {
+    width: 100%;
+    
+    .navigation {
+      gap: 4rem;
+      width: auto;
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+
+      .nav-menu {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 4rem;
+      }
+
+      li {
+        display: flex;
+        justify-content: center;
+        margin: 0;
+        padding: 0;
+        font-size: 1rem;
+        list-style-type: none;
+      }
+      
+      a {
+        text-decoration: none;
+        transform: scale(1);
+        color: v.$pc;
+        font-family: "Balsamiq Sans", sans-serif;
+        font-weight: 700;
+        font-size: v.$text-md;
+      
+        &:hover {
+          text-decoration: underline;
+          transform: scale(1.1);
+          color: v.$pink;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  header {
+    .mobile-menu {
+      display: block;
+      position: absolute;
+      right: 1rem;
+    }
+
+
+    .navigation {
+      display: none;
+      position: absolute;
+      top: 100px;
+      right: 0;
+      height: 100vh;
+      width: 50%;
+      color: v.$pink;
+      z-index: 99;
+      padding: 0.5rem;
+      background-color: v.$bgc;
+      transform: translateX(100%);
+      transition: all 0.8s ease-out;
+      flex-direction: column;
+
+      &.showMenu {
+        display: block;
+        transform: translateX(0);
+      }
+
+     li {
+        display: flex;
+        justify-content: end;
+        margin: 0;
+        padding: 0.5em 0;
+        width: 100%;
+        color: v.$pc;
+
+        a {
+          font-family: "Balsamiq Sans", sans-serif;
+          font-weight: 700;
+          font-size: v.$text-md;
+          color: v.$pc;
+        }
+        
+         a:hover {
+          color: v.$pink;
+          text-decoration: underline;
+          transform: scale(0.9);
+        }
+      }
+    }
+  }
+}
