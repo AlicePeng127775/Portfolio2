@@ -14,7 +14,7 @@
     <!-- Open Graph Meta Tags -->
         <meta property="og:title" content="Alice Peng - Little Fish Cares Website">
         <meta property="og:description" content="Hello! I'm Alice Peng, I designed and developed the website for Little Fish Cares .">
-        <meta property="og:image" content="https://alicpeng.com/img/project/project1.png">
+        <meta property="og:image" content="https://alicepeng.com/img/project/project1.png">
         <meta property="og:url" content="https://alicepeng.com/project1">
         <meta property="og:type" content="website">
     <!-- Twitter Card Meta Tags -->

@@ -14,7 +14,7 @@
     <!-- Open Graph Meta Tags -->
         <meta property="og:title" content="Alice Peng - Portfolio">
         <meta property="og:description" content="Hello! I'm Alice Peng,  a passionate front-end developer and UI/UX designer based in Vancouver. here is my portfolio">
-        <meta property="og:image" content="https://alicpeng.com/img/project/project1.png">
+        <meta property="og:image" content="https://alicepeng.com/img/project/project1.png">
         <meta property="og:url" content="https://alicepeng.com/portfolio.php">
         <meta property="og:type" content="website">
 
