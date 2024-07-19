@@ -17,9 +17,10 @@
     <!-- Open Graph Meta Tags -->
     <meta property="og:title" content="About Alice Peng">
     <meta property="og:description" content="Learn more about Alice Peng, a creative front-end developer and UI/UX designer with a passion for crafting intuitive and engaging digital experiences.">
-    <meta property="og:image" content="https://alicepeng.com/img/photo/Alice03.png">
+    <meta property="og:image" content="https://alicepeng.com/img/photo/home.png">
     <meta property="og:url" content="https://alicepeng.com/about.php">
     <meta property="og:type" content="website">
+    <meta property="fb:app_id" content="yuan.zi.3133">
        
     <!-- Twitter Card Meta Tags -->
     <meta name="twitter:card" content="summary_large_image">
