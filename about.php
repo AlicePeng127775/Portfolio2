@@ -12,6 +12,15 @@
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <script src="https://kit.fontawesome.com/92a4d8c871.js" crossorigin="anonymous"></script>
+
+    
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:title" content="About Alice Peng">
+    <meta property="og:description" content="Learn more about Alice Peng, a creative front-end developer and UI/UX designer with a passion for crafting intuitive and engaging digital experiences.">
+    <meta property="og:image" content="https://alicepeng.com/img/photo/Alice03.png">
+    <meta property="og:url" content="https://alicepeng.com/about.php">
+    <meta property="og:type" content="website">
+
     <title>About Alice - Front-End Developer and UI/UX Designer</title>
 </head>
 <body>

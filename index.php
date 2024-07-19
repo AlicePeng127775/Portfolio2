@@ -19,6 +19,13 @@
     <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/typed.js@2.0.12/lib/typed.min.css" />
     <!--Font Awesome-->
     <script src="https://kit.fontawesome.com/92a4d8c871.js" crossorigin="anonymous"></script>
+
+     <!-- Open Graph Meta Tags -->
+        <meta property="og:title" content="Alice Peng - Front-End Developer and UI/UX Designer">
+        <meta property="og:description" content="Hello! I'm Alice Peng, a passionate front-end developer and UI/UX designer based in Vancouver.">
+        <meta property="og:image" content="https://alicpeng.com/img/photo/Alice01.png">
+        <meta property="og:url" content="https://alicepeng.com">
+        <meta property="og:type" content="website">
    
     <title> Welcome to Alice's Web</title>
 </head>

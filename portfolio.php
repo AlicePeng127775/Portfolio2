@@ -10,6 +10,13 @@
     <script src="https://kit.fontawesome.com/92a4d8c871.js" crossorigin="anonymous"></script>
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/bodymovin/5.9.6/lottie.min.js"></script>
+    
+    <!-- Open Graph Meta Tags -->
+        <meta property="og:title" content="Alice Peng - Portfolio">
+        <meta property="og:description" content="Hello! I'm Alice Peng,  a passionate front-end developer and UI/UX designer based in Vancouver. here is my portfolio">
+        <meta property="og:image" content="https://alicpeng.com/img/project/project1.png">
+        <meta property="og:url" content="https://alicepeng.com/portfolio.php">
+        <meta property="og:type" content="website">
     <title> Alice's Portfolio</title>
 </head>
 <body>
