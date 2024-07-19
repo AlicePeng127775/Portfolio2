@@ -2,98 +2,205 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="description" content="Explore the Whac-A-Mole Website Game project by Alice Peng, an interactive web game developed with HTML, CSS, JavaScript, and custom illustrations. Discover the development journey, from brainstorming to implementation, and play the game.">
-    <meta name="keywords" content="Whac-A-Mole Game, Web Development, Web Game,HTML Game, HTML, CSS, JavaScript, Alice Peng, Portfolio">
+    <meta name="description" content="Explore Alice Peng's portfolio featuring web development projects including the Little Fish Cares Animal Adoption Website. Discover innovative solutions in HTML, CSS, JavaScript, UI/UX design, and more.">
+    <meta name="keywords" content="Alice Peng, Web Development, UI/UX Design, HTML, CSS, JavaScript, Visual Studio Code, WordPress, React, Portfolio">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="dist/app.css">
     <link rel="icon" type="image/x-icon" href="/img/logo/icon.png">
     <script src="https://kit.fontawesome.com/92a4d8c871.js" crossorigin="anonymous"></script>
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-    <title> Alice's Project | Whac-A-Mole Game</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bodymovin/5.9.6/lottie.min.js"></script>
+
+    <!-- Open Graph Meta Tags -->
+        <meta property="og:title" content="Alice Peng - Little Fish Cares Website">
+        <meta property="og:description" content="Hello! I'm Alice Peng, I designed and developed the website for Little Fish Cares .">
+        <meta property="og:image" content="https://alicepeng.com/img/project/project1.png">
+        <meta property="og:url" content="https://alicepeng.com/project1">
+        <meta property="og:type" content="website">
+        <meta property="fb:app_id" content="yuan.zi.3133">
+    <!-- Twitter Card Meta Tags -->
+        <meta name="twitter:card" content="summary_large_image">
+        <meta name="twitter:title" content="Alice Peng - Little Fish Cares Website">
+        <meta name="twitter:description" content="Hello! I'm Alice Peng, I designed and developed the website for Little Fish Cares.">
+        <meta name="twitter:image" content="https://alicpeng.com/img/project/project1.png">
+        <meta name="twitter:url" content="https://alicepeng.com/project1">
+        <meta name="twitter:creator" content="@775_Yu">
+    <title> Alice's Project | Little Fish Cares</title>
 </head>
 <body>
     <!----------------- header ------------------>
     <?php require_once("partials/header.php") ?>
     <!------------------------------------------->
-    <main>
+    <main class='container'>
     <div class='portfolioTitle'>
-        <h5>My Portfolio</h5>
         <p>Explore my latest portfolio of web development projects<br>
          covering a wide range of areas from HTML , CSS, JavaScript,<br>
           Visual Studio Code, UI/UX animation to WordPress and React.</p>
+          <div id="lottie-animation"></div>
+
     </div>
-    <div class='allProject container'>
+    <div class='singleProject'>
         <div class='project grid'>
-            <div class='projectInfo col-12' data-aos="fade-up">
-                <div class='grid'>
-                    <h4 class='col-12 col-8-lg '>Whac-A-Mole Website Game</h4> 
-                    <div class='linkBtn col-12 col-4-lg'>
-                        <a href='https://whac-a-mole.alicccccc.com/'><i class="fa-solid fa-link"></i>Play&nbsp;Game</a>
-                        <a href='https://github.com/AlicePeng127775/Whac-A-Mole-Website-Game.git'><i class="fa-brands fa-github"></i>View&nbsp;Code</a>
+            <div class='projectInfo col-12' data-aos="fade-up">                
+                    <div class='projectIntro col-12'>
+                        <div class='project1C col-12 grid'>                        
+
+                            <div class='projectIMG col-12 col-6-lg'><img src='./img/project/laptop1.png' alt='Little Fish cares laptop Mockup'></div>
+                        
+                            <div class='col-12 col-6-lg'>
+                                <h4 class='col-12 col-8-lg '>Little Fish Cares Animal Adoption</h4> 
+                                <div class='toolC'>
+                                <span class='tool toolBorder1'><img src='./img/skill/coding/HTML.png' alt='HTML Logo'/></span>
+                                <span class='tool toolBorder1'><img src='./img/skill/coding/CSS.png' alt='CSS Logo'/></span>
+                                <span class='tool toolBorder1'><img src='./img/skill/coding/Java Script.png' alt='JavaScript Logo'/></span>
+                                <span class='tool toolBorder1'><img src='./img/skill/coding/Visual Studio Code.png' alt='Visual Studio Code Logo'/></span>
+                                <span class='tool toolBorder1'><img src='./img/skill/design/Figma.png' alt='Figma Logo'/></span>
+                                <span class='tool toolBorder1'><img src='./img/skill/design/Illustrator.png' alt='Illustrator Logo'/></span>
+
+                                </div>
+                                
+
+                                <h6>Little fish cares is a pet adoption agency in Vancouver. <br> 
+
+                                    Their mission statement is:<br>
+                                    Every stray animal is a ‘little fish’ and they want to save them.Provide them with medical care. Become their ‘transit station’ and help them find a warm home.<br> 
+                                </h6>
+
+                                <div class='linkBtn col-12 col-4-lg'>
+                                    <a href="https://lumina.aliccccce.com/"><i class="fa-solid fa-link"></i>Lauch&nbsp;Site</a>
+                                    <a href="#"><i class="fa-brands fa-github"></i>View&nbsp;Code</a>
+                                </div>
+
+                            </div>
+                        </div>
+                        <div class='mockupC col-12 grid'>
+                            <div class='mockup col-12'><img src='./img/project/Mockup1.png' alt='Little Fish cares web site Mockup'></div>
+                        </div>
+                        
+                          
+
+                        <div class='process col-12 grid'>
+                            <div class='col-12 col-6-lg'>
+                                <h5>Brainstorm - </br>Information Architecture:</h5>
+
+                                <p>
+                                Before designing a web page for a company, it is important to understand the company's main services, goals, missions, analyze the target audience, hypothetical scenarios, analyze the competitors.
+                                </p>
+                                </br>
+
+                                <h5>Design - Style Guide:</h5>
+                                <p>
+                                After completing the Brainstorm information architecture, before developing the website. We need to design a Style Guide for the company, which includes designing the logo, colors, fonts, buttons, wireframes, and mockups.
+                                </p>
+                            </div>
+                            <div class="col-12 col-6-lg">
+                            <div style="position: relative; width: 100%; height: 0; padding-top: 56.2500%;
+                            padding-bottom: 0; box-shadow: 0 2px 8px 0 rgba(63,69,81,0.16); margin-top: 1.6em; margin-bottom: 0.9em; overflow: hidden;
+                            border-radius: 8px; will-change: transform;">
+                            <iframe loading="lazy" style="position: absolute; width: 100%; height: 100%; top: 0; left: 0; border: none; padding: 0;margin: 0;"
+                                src="https:&#x2F;&#x2F;www.canva.com&#x2F;design&#x2F;DAFoS6Q87Uc&#x2F;iIO3nkjqEx8AHjNPwP2H9w&#x2F;view?embed" allowfullscreen="allowfullscreen" allow="fullscreen">
+                            </iframe>
+                            </div>
+
+                            </div>
+
+                        </div>
+                        
+                        <div class='process col-12 grid'>
+                            <div class="col-12 col-6-lg">
+                            <iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" width="100%" height="450" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fdesign%2FUX5J2rhHJYjz5tuDLmsFdT%2FLittle-Fish-Cares-Wireframe%3Fnode-id%3D341-56776%26t%3DHdzoDnMwK2tRyWPQ-1" allowfullscreen></iframe>
+
+                            </div>
+
+                            <div class="col-12 col-6-lg">
+                                <h5>Design - Wireframe:</h5>
+                                <p>
+                                After completing the Brainstorm information architecture, before developing the website. We need to design a Style Guide for the company, which includes designing the logo, colors, fonts, buttons, wireframes, and mockups.
+                                </p>
+                            </div>
+                        
+                        </div>
+                        <div class='process col-12 grid'>
+                                <div class='col-12 col-6-lg'>
+                                    <h5>Development - hand code:</h5>
+                                    <p>
+                                    In the programming, I will be taught in
+                                    the classroom used to switch images
+                                    JavaScript integration into my home page
+                                    banner images so that they can be
+                                    constantly replaced, and in the future the
+                                    image needs to be replaced in fact do not
+                                    need to change the HTML and CSS and JS
+                                    parts, just need to re-upload the image
+                                    can be.<br><br>
+
+
+                                    I was also learning and experimenting
+                                    with different JavaScript libraries, and
+                                    eventually I chose AOS .js for my webpage
+                                    scrolling animation because I only needed
+                                    to have something to display when
+                                    scrolling to the content Compared to
+                                    ScrollMagic, it s much more suitable for a
+                                    normal website.<br><br>
+
+
+                                    I also used Bootstrap for the slideshow
+                                    part of the website, which saves me the
+                                    time of making a responsive website. I
+                                    also used Fancybox to show the zoom
+                                    function, and Typed.js to make the
+                                    typewriter function for the headline,
+                                    which makes my homepage more playful
+                                    and cute. <br><br>
+
+
+                                    Finally, I used Leaflet.js to create a map, so
+                                    that even if little fish cares to add a new
+                                    location in the future, it can be marked on
+                                    the map, which is very flexible and
+                                    convenient.<br><br>
+                                    </p>
+                                </div>
+                            
+                            <div id="lottie-animation2" class='col-12 col-6-lg'></div>
+
+
+                        </div>
+
                     </div>
-
-                </div>
-
-                <p class="tool">Tool：HTML , CSS, JavaScript, Visual Studio Code , Illusttretor</p>
-                <div class='projectIntro'>
-                <h6>Introduction：</h6>
-                <p>This is a small web game, the player mainly uses the mouse to control the hammer, to knock the mouse to get points, cute graphics with background music and percussion sound effects to make the game more interesting!</p>
-                <h6>The first version:<h6>
-                <p>Brainstorm and Search:</p>
-                <p>Since we need to use the getBoundingClientRect() method to create web pages with images that follow the cursor, I wanted to make a whac-a-mole game. Since I was not familiar with this method, I started to look for related introductions and tutorials on the internet.
-                At the same time, I was also looking for suitable pictures. I also made reference to the current gopher games on the internet, and formulated the basic rules and functions. But because the focus is on the use of getBoundingClientRect() method, so the rules only set the time for 30 seconds, hit the mouse can be added points, and in the final pop-up window to tell you the total score.</p>
-                <p>Development and testing process:</p>
-                <p>I’ve designed the web page layout for the Whack-A-Mole game. I use some oval images to represent the hole for mouse image to go up and down. I use the hammer images to replace the normal cursor during the game. During development I used the getBoundingClientRect() method to get the hammer to hit the mouse and add points,</P>
-
-                <h6>Second version:</h6>
-                <p>Re-brainstormed and re-designed:</p>
-                <p>I added refresh page, and pause, etc. to the first version.
-                I also re-searched for suitable images and icons, since I couldn't find suitable hammers, the original hammer image was too low pixel, so I used an illustrator to draw my own vector image and used it in the game.
-                In addition, I found background music, and hit sound effects to increase the game play experience.
-                After that, I use a background-image to make the web page look more interesting.</p>
-                <p>Development and testing process:</p>
-                <p>First, I added two new buttons on the top left corner which is refresh and pause button. I added the pauseGame() and refreshGame() function to make the button can pause and refresh the game. But unfortunately, the hammer cannot interact with these two buttons in the first few tests. After that, I found that the problem is in the JavaScript part, and I’ve fixed the error of refreshGame() and pauseGame() function by modified the JavaScript code. Next, I change the images and icons for mouse and hammer to improve the visual presentation quality of the game. I also added a few audios effect which is hit sound when the hammer hit mouse and background-music to increase the game play experience of user. In addition, I use a background-image to make the web page look more interesting. Lastly, I added some CSS code for the start button, to make it can ease-in when the web page was launched and disappear after user click the start button to improve the visual presentation quality.</p>
-                <h6>Copyright:</h6>
-                    <p>The images, icon and muisc I used in this project came from Envato Elements.</p>
-                </div>
             </div>
-            <div class='projectImg col-12'><img src='./img/project/project3.png' alt="Whac-A-Mole Website Game"></div>
 
         </div>
         <h2 class='other'>Other Project</h2>
         <div class='ontherProject container grid' data-aos="fade-up">
            
-        <div class='project col-12 col-4-lg'>
-            <div class='projectImg'><img src='./img/project/project1.png'  alt="Little Fish Cares Animal Adoption Website"></div>
-            <div class='projectInfo'>
-                <h4>Little Fish Cares Animal Adoption Website</h4>
-                <a href='project1.php' class='viewBtn'> View Project</a>
-            </div>
-        </div>
+                <div class='project col-12 col-6-sm col-6-md col-4-lg'>
+                    <div class='projectImg'><img src='./img/project/project2.png'  alt="Lumina online shopping Website"></div>
+                    <div class='projectInfo'>
+                        <h4>Lumina online shopping Website</h4>
+                        <a href='project2.php' class='viewBtn btn2'> View  <i class="fa-solid fa-arrow-right"></i> </a>
+                    </div>
+                </div>
 
-        <div class='project col-12 col-4-lg'>
-            <div class='projectImg'><img src='./img/project/project2.png' alt="Lumina online shopping Website"></div>
-            <div class='projectInfo'>
-                <h4>Lumina online shopping Website</h4>
-                <a href='project2.php' class='viewBtn'> View Project</a>
-            </div>
-        </div>
+                <div class='project col-12 col-6-sm col-6-md col-4-lg'>
+                    <div class='projectImg'><img src='./img/project/project3.png' alt="Whac-A-Mole Website Game"></div>
+                    <div class='projectInfo'>
+                        <h4>Whac-A-Mole Website Game</h4>
+                        <a href='project3.php' class='viewBtn btn2'> View  <i class="fa-solid fa-arrow-right"></i> </a>
+                    </div>
+                </div>
 
-        <div class='project col-12 col-4-lg'>
-            <div class='projectImg'><img src='./img/project/project4.png' alt="October shopping app design"></div>
-            <div class='projectInfo'>
-                <h4>October shopping app design</h4>
-                <a href='project4.php' class='viewBtn'> View Project</a>
-            </div>
-        </div>
+                <div class='project col-12 col-6-sm col-6-md col-4-lg'>
+                    <div class='projectImg'><img src='./img/project/project4.png' alt="October shopping app design"></div>
+                    <div class='projectInfo'>
+                        <h4>October shopping app design</h4>
+                        <a href='project4.php' class='viewBtn btn2'> View  <i class="fa-solid fa-arrow-right"></i> </a>
+                    </div>
+                </div>
         </div>
     </div>
-    <div class='contactIcon'>
-                <div class='github'><a href='https://github.com/AlicePeng127775'><i class="fa-brands fa-github"></i></a></div>
-                <div class='linkedin'><a href='https://www.linkedin.com/in/ziyuan-peng/'><i class="fa-brands fa-linkedin-in"></i></a></div>
-                <div class='email'><a href='mailto:yuan127775@gmail.com'><i class="fa-solid fa-envelope"></i></a></div>
-    </div>
-    
+
     </main>
     <div class='content-wrap'></div>
     <!----------------- footer ------------------>
@@ -101,5 +208,23 @@
     <!------------------------------------------->
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script src='./js/app.js'></script>
+    <script>
+        var animation = lottie.loadAnimation({
+        container: document.getElementById('lottie-animation'), // 容器 ID
+        renderer: 'svg', // 渲染器类型，可选 'svg' 或 'canvas'
+        loop: true, // 是否循环播放
+        autoplay: true, // 是否自动播放
+        path: 'https://lottie.host/50b088fe-b6b6-47b4-88f6-5d532aea5086/2a3vEVbGKX.json' // Lottie 文件的路径
+    });
+
+    var animation2 = lottie.loadAnimation({
+            container: document.getElementById('lottie-animation2'), // 容器 ID
+            renderer: 'svg', // 渲染器类型，可选 'svg' 或 'canvas'
+            loop: true, // 是否循环播放
+            autoplay: true, // 是否自动播放
+            path: 'https://lottie.host/62ecd630-5863-4f22-94ba-e80968fa0bb1/zCWiMOR3fs.json' // Lottie 文件的路径
+        });
+    </script>
+
 </body>
 </html>
