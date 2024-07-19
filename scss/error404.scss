@@ -1,0 +1,8 @@
+@use"base/variables.scss" as v;
+@use "base/functions.scss" as f;
+
+
+.error404{
+    min-height: calc(100vh - 24px);//減去footer
+    align-items: center;
+}
