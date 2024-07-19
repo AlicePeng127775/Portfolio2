@@ -5,7 +5,10 @@
 .aboutMe{
     color: v.$pc;
     align-items: last baseline;
+    justify-content: center;
+    margin: 0 auto;
     .photo{
+            margin: 0 auto;
         img{
             width: 80%;
             margin: 0 auto;
@@ -15,6 +18,7 @@
         display: flex;
         flex-direction: column;
         justify-content: space-evenly;
+        padding: 0 16px;
 
         p{
             margin: 20px auto;
@@ -82,7 +86,7 @@
     height: 200px;
     border-radius: 20%;
     padding: 10% 5%;
-    margin-top: 20px;
+    margin: 20px auto 0 auto;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -90,14 +94,15 @@
 
  
     .iconC {
-        width: 80px;
-        height: 80px;
+        width: 60px;
+        height: 60px;
         border-radius: 50%;
         display: flex;
         align-items: center;
         justify-content: center;
         background-color: v.$pc;  
         overflow: hidden;
+        
         img{
              width: 110%;
         }
@@ -112,7 +117,7 @@
 
 
  .skillCard:hover .iconC{
-    background-color: v.$pc;  
+    transform: scale(105%);  
 }
 
 .Back, .forward {

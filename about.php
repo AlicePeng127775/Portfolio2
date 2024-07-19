@@ -52,7 +52,7 @@
                         $codingskill = array('HTML', 'CSS', 'Java Script','PHP','SCSS','MySQL','Node.js','React.js','Visual Studio Code','Android Studio Code','Expo','Wordpress');
 
                         foreach($codingskill as $value){
-                            echo "<div class='skillCard col-6 col-2-lg'>
+                            echo "<div class='skillCard col-3 col-4-sm col-2-lg'>
                             <div class='iconC'>
                             <img src='./img/skill/coding/$value.png' alt='$value logo'>
                             </div>
@@ -70,7 +70,7 @@
                             $designskill = array('Photoshop', 'Illustrator', 'InDesign','Dimension','Premiere','After Effects',"XD",'Audition',"Creative Cloud",'Figma');
 
                             foreach($designskill as $value){
-                                echo "<div class='skillCard col-6 col-2-lg'>
+                                echo "<div class='skillCard col-3 col-4-sm col-2-lg'>
                                 <div class='iconC'>
                                 <img src='./img/skill/design/$value.png' alt='$value logo'>
                                 </div>
