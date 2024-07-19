@@ -31,7 +31,7 @@
         <div class='homeIntro container grid'>
             <div class='photo col-12 col-6-md col-6-lg'>
                 
-                <div class='alicePhoto'><img src='./img/photo/Alice01.png' alt=" alice"/></div>
+                <div class='alicePhoto'><img src='./img/photo/Alice01.png' alt="alice photo"/></div>
 
             </div>
          

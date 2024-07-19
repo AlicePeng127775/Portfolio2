@@ -31,17 +31,18 @@
                     <div class='projectIntro col-12'>
                         <div class='project1C col-12 grid'>                        
 
-                            <div class='projectIMG col-12 col-6-lg'><img src='./img/project/laptop1.png'></div>
+                            <div class='projectIMG col-12 col-6-lg'><img src='./img/project/laptop1.png' alt='Little Fish cares laptop Mockup'></div>
                         
                             <div class='col-12 col-6-lg'>
                                 <h4 class='col-12 col-8-lg '>Little Fish Cares Animal Adoption</h4> 
                                 <div class='toolC'>
-                                    <span class='tool'><img src='./img/skill/coding/HTML.png'/></span>
-                                    <span class='tool'><img src='./img/skill/coding/CSS.png'/></span>
-                                    <span class='tool'><img src='./img/skill/coding/Java Script.png'/></span>
-                                    <span class='tool'><img src='./img/skill/coding/Visual Studio Code.png'/></span>
-                                    <span class='tool'><img src='./img/skill/design/Figma.png'/></span>
-                                    <span class='tool'><img src='./img/skill/design/Illustrator.png'/></span>
+                                <span class='tool'><img src='./img/skill/coding/HTML.png' alt='HTML Logo'/></span>
+                                <span class='tool'><img src='./img/skill/coding/CSS.png' alt='CSS Logo'/></span>
+                                <span class='tool'><img src='./img/skill/coding/Java Script.png' alt='JavaScript Logo'/></span>
+                                <span class='tool'><img src='./img/skill/coding/Visual Studio Code.png' alt='Visual Studio Code Logo'/></span>
+                                <span class='tool'><img src='./img/skill/design/Figma.png' alt='Figma Logo'/></span>
+                                <span class='tool'><img src='./img/skill/design/Illustrator.png' alt='Illustrator Logo'/></span>
+
                                 </div>
                                 
 
@@ -59,7 +60,7 @@
                             </div>
                         </div>
                         <div class='mockupC col-12 grid'>
-                            <div class='mockup col-12'><img src='./img/project/Mockup1.png'></div>
+                            <div class='mockup col-12'><img src='./img/project/Mockup1.png' alt='Little Fish cares web site Mockup'></div>
                         </div>
                         
                           
