@@ -7,11 +7,15 @@
     align-items: last baseline;
     justify-content: center;
     margin: 0 auto;
+    
     .photo{
-            margin: 0 auto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 0 auto;
+          
         img{
             width: 80%;
-            margin: 0 auto;
         }
     }
     .info{

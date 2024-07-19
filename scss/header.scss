@@ -29,6 +29,19 @@ header {
     right: 1rem;
     top: 50%;
     transform: translateY(-50%);
+    a {
+      font-family: "Balsamiq Sans", sans-serif;
+      font-weight: 700;
+      font-size: v.$text-md;
+      color: v.$pc;
+      text-transform: none;
+    }
+    
+     a:hover {
+      color: v.$pink;
+      text-decoration: underline;
+      transform: scale(0.9);
+    }
   }
 
   .mobile-menu {

@@ -5,7 +5,7 @@
 .container {
     max-width: f.toRem(v.$siteWidth);
     margin: 0 auto;
-    padding: 0 v.$baseUnit;
+    padding: 0 f.toRem(v.$baseUnit);
 }
 
 .grid {
@@ -31,7 +31,7 @@
 .col-11 { grid-column: span 11; }
 .col-12 { grid-column: span 12; }
 
-@media screen and (min-width: 568px) {
+@media screen and (min-width: 560px) {
     
     .col-1-sm { grid-column: span 1; }
     .col-2-sm { grid-column: span 2; }
@@ -48,7 +48,7 @@
 
 }
 
-@media screen and (min-width: 834px) {
+@media screen and (min-width: 760px) {
     
     .col-1-md { grid-column: span 1; }
     .col-2-md { grid-column: span 2; }
@@ -65,7 +65,7 @@
 
 }
 
-@media screen and (min-width: 1080px) {
+@media screen and (min-width: 1024px) {
     
     .col-1-lg { grid-column: span 1; }
     .col-2-lg { grid-column: span 2; }

@@ -132,7 +132,7 @@
                 text-transform: uppercase;
                 transition: 0.5s;
                 background-size: 200% auto;
-                color: v.$black;            
+                color: v.$white;            
                 border-radius: 10px;
                 border: 0 solid;
                 display: block;
@@ -145,18 +145,20 @@
 
             
                 i{
-                    color: v.$black;
+                    color: v.$white;
                     margin-right: 5px;
                 }
             }
             a:hover{
                 background-position: right center; /* change the direction of the change here */
-                color: #fff;
+                color: v.$black;
                 text-decoration: none;
+                transform: scaleX(1.1);
                 }   
 
             a:hover i{
-                color: #fff;
+                color:v.$black;
+                
             }
 
         }
@@ -201,7 +203,7 @@
             text-transform: uppercase;
             transition: 0.5s;
             background-size: 200% auto;
-            color: v.$black;            
+            color: v.$white;            
             border-radius: 20px;
             border: 0 solid;
             display: block;
@@ -215,8 +217,13 @@
       
           .btn2:hover {
             background-position: right center; /* change the direction of the change here */
-            color: #fff;
+            color:v.$black;
             text-decoration: none;
+            transform: scale(1.1);
+          }
+
+          .btn2:hover i {
+            margin-left: 10px;
           }
     }  
 }
