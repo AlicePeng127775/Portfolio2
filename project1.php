@@ -50,12 +50,12 @@
                             <div class='col-12 col-6-lg'>
                                 <h4 class='col-12 col-8-lg '>Little Fish Cares Animal Adoption</h4> 
                                 <div class='toolC'>
-                                <span class='tool'><img src='./img/skill/coding/HTML.png' alt='HTML Logo'/></span>
-                                <span class='tool'><img src='./img/skill/coding/CSS.png' alt='CSS Logo'/></span>
-                                <span class='tool'><img src='./img/skill/coding/Java Script.png' alt='JavaScript Logo'/></span>
-                                <span class='tool'><img src='./img/skill/coding/Visual Studio Code.png' alt='Visual Studio Code Logo'/></span>
-                                <span class='tool'><img src='./img/skill/design/Figma.png' alt='Figma Logo'/></span>
-                                <span class='tool'><img src='./img/skill/design/Illustrator.png' alt='Illustrator Logo'/></span>
+                                <span class='tool toolBorder1'><img src='./img/skill/coding/HTML.png' alt='HTML Logo'/></span>
+                                <span class='tool toolBorder1'><img src='./img/skill/coding/CSS.png' alt='CSS Logo'/></span>
+                                <span class='tool toolBorder1'><img src='./img/skill/coding/Java Script.png' alt='JavaScript Logo'/></span>
+                                <span class='tool toolBorder1'><img src='./img/skill/coding/Visual Studio Code.png' alt='Visual Studio Code Logo'/></span>
+                                <span class='tool toolBorder1'><img src='./img/skill/design/Figma.png' alt='Figma Logo'/></span>
+                                <span class='tool toolBorder1'><img src='./img/skill/design/Illustrator.png' alt='Illustrator Logo'/></span>
 
                                 </div>
                                 
@@ -94,13 +94,14 @@
                                 </p>
                             </div>
                             <div class="col-12 col-6-lg">
-                                <div style="position: relative; width: 100%; height: 0; padding-top: 56.2500%;
-                                    padding-bottom: 0; box-shadow: 0 2px 8px 0 rgba(63,69,81,0.16); margin-top: 1.6em; margin-bottom: 0.9em; overflow: hidden;
-                                    border-radius: 8px; will-change: transform;">
-                                    <iframe loading="lazy" style="position: absolute; width: 100%; height: 100%; top: 0; left: 0; border: none; padding: 0;margin: 0;"
-                                        src="https:&#x2F;&#x2F;www.canva.com&#x2F;design&#x2F;DAFoS6Q87Uc&#x2F;iIO3nkjqEx8AHjNPwP2H9w&#x2F;view?embed" allowfullscreen="allowfullscreen" allow="fullscreen">
-                                    </iframe>
-                                </div>
+                            <div style="position: relative; width: 100%; height: 0; padding-top: 56.2500%;
+                            padding-bottom: 0; box-shadow: 0 2px 8px 0 rgba(63,69,81,0.16); margin-top: 1.6em; margin-bottom: 0.9em; overflow: hidden;
+                            border-radius: 8px; will-change: transform;">
+                            <iframe loading="lazy" style="position: absolute; width: 100%; height: 100%; top: 0; left: 0; border: none; padding: 0;margin: 0;"
+                                src="https:&#x2F;&#x2F;www.canva.com&#x2F;design&#x2F;DAFoS6Q87Uc&#x2F;iIO3nkjqEx8AHjNPwP2H9w&#x2F;view?embed" allowfullscreen="allowfullscreen" allow="fullscreen">
+                            </iframe>
+                            </div>
+
                             </div>
 
                         </div>
@@ -198,11 +199,6 @@
                     </div>
                 </div>
         </div>
-    </div>
-    <div class='contactIcon'>
-                <div class='github'><a href='https://github.com/AlicePeng127775'><i class="fa-brands fa-github"></i></a></div>
-                <div class='linkedin'><a href='https://www.linkedin.com/in/ziyuan-peng/'><i class="fa-brands fa-linkedin-in"></i></a></div>
-                <div class='email'><a href='mailto:yuan127775@gmail.com'><i class="fa-solid fa-envelope"></i></a></div>
     </div>
 
     </main>

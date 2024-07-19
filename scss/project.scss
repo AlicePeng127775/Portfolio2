@@ -2,7 +2,7 @@
 @use "base/functions.scss" as f;
 .singleProject{
     .project{
-        margin-top: 400px;
+        margin-top: 350px;
         .project1C{
             width: 100%;
             background-color: #F3E6F2;
@@ -108,15 +108,15 @@
                 display: flex;
                 justify-content: center;
                 align-items: center;
-                border: 0.3px solid v.$pc;
                 margin-right: -7px;
         
-        
-              
                 img{
                     width: 110%;
                     height: auto;      
                 }
+            }
+            .toolBorder1{
+                border: 2.5px solid #F3E6F2;
             }
         } 
       .linkBtn{
@@ -170,6 +170,7 @@
 
 .ontherProject{
     .project{
+        width: calc(100% - 16px - 16px);
         margin:50px auto;
         padding: 40px;
         background-color: #0e0e0e;
@@ -183,8 +184,6 @@
         }
         .projectInfo{
             text-align: start;
-            flex-grow: 1; /* 让这个部分占据剩余的高度 */
-           
         }
         h4{
             font-size: v.$text-md;
@@ -223,10 +222,11 @@
 }
 
  
-@media (min-width: 786px)  {
-    .project{
-        margin-top: 100px;
-        .projectIntro{
+@media (min-width: 1024px)  {
+    .singleProject{
+           .project{
+            margin-top: 100px;
+           .projectIntro{
             margin-top: 20px;
             padding: 50px;
           
@@ -241,7 +241,9 @@
     
             padding: 40px;
         }
+        }
     }
+ 
     .linkBtn{
         zoom:160%;
 

@@ -118,7 +118,7 @@
                 <div class='projectCardBottom'>
                     <div class='toolC'>
                     <span class='tool'><img src='./img/skill/design/Figma.png' alt='Figma Logo'/></span>
-                    <span class='tool'><img src='./img/skill/design/PhotoShop.png' alt='Photoshop Logo'/></span>
+                    <span class='tool'><img src='./img/skill/design/Photoshop.png' alt='Photoshop Logo'/></span>
                     <span class='tool'><img src='./img/skill/design/Illustrator.png' alt='Illustrator Logo'/></span>
 
                     </div>

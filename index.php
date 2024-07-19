@@ -26,6 +26,8 @@
         <meta property="og:image" content="https://alicepeng.com/img/photo/home.png">
         <meta property="og:url" content="https://alicepeng.com">
         <meta property="og:type" content="website">
+        <meta property="fb:app_id" content="yuan.zi.3133">
+
 
      <!-- Twitter Card Meta Tags -->
         <meta name="twitter:card" content="summary_large_image">
