@@ -18,8 +18,8 @@
     <!----------------- header ------------------>
     <?php require_once("partials/header.php") ?>
     <!------------------------------------------->
-    <main>
-    <div class='aboutMe container grid'>
+    <main class='container'>
+    <div class='aboutMe grid'>
         <div class="photo col-12 col-12-sm col-6-lg ">
             <img src='./img/photo/Alice03.png' alt='alice photo'>
         </div>
@@ -42,7 +42,7 @@
         </div>
     </div>
         
-    <div class='skill container grid'>
+    <div class='skill grid'>
         <h2 class='col-12'>My Skill</h2>
 
         <div class='col-12' data-aos="fade-up">
