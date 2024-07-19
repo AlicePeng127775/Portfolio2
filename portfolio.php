@@ -17,6 +17,15 @@
         <meta property="og:image" content="https://alicpeng.com/img/project/project1.png">
         <meta property="og:url" content="https://alicepeng.com/portfolio.php">
         <meta property="og:type" content="website">
+
+    <!-- Twitter Card Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Alice Peng - Portfolio">
+    <meta name="twitter:description" content="Hello! I'm Alice Peng, a passionate front-end developer and UI/UX designer based in Vancouver. Here is my portfolio">
+    <meta name="twitter:image" content="https://alicepeng.com/img/project/project1.png">
+    <meta name="twitter:url" content="https://alicepeng.com/portfolio.php">
+    <meta name="twitter:creator" content="@775_Yu">
+
     <title> Alice's Portfolio</title>
 </head>
 <body>

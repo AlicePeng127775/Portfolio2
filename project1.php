@@ -11,13 +11,19 @@
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/bodymovin/5.9.6/lottie.min.js"></script>
 
-       <!-- Open Graph Meta Tags -->
+    <!-- Open Graph Meta Tags -->
         <meta property="og:title" content="Alice Peng - Little Fish Cares Website">
         <meta property="og:description" content="Hello! I'm Alice Peng, I designed and developed the website for Little Fish Cares .">
         <meta property="og:image" content="https://alicpeng.com/img/project/project1.png">
         <meta property="og:url" content="https://alicepeng.com/project1">
         <meta property="og:type" content="website">
-
+    <!-- Twitter Card Meta Tags -->
+        <meta name="twitter:card" content="summary_large_image">
+        <meta name="twitter:title" content="Alice Peng - Little Fish Cares Website">
+        <meta name="twitter:description" content="Hello! I'm Alice Peng, I designed and developed the website for Little Fish Cares.">
+        <meta name="twitter:image" content="https://alicpeng.com/img/project/project1.png">
+        <meta name="twitter:url" content="https://alicepeng.com/project1">
+        <meta name="twitter:creator" content="@775_Yu">
     <title> Alice's Project | Little Fish Cares</title>
 </head>
 <body>
