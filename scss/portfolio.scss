@@ -36,9 +36,9 @@
     .project{
         width: 95%;
         margin: 20px auto;
-        background-color: #0e0e0e;
+        background-color: v.$pink3;
         border-radius: 30px;
-        border: 0.5px solid #2f2f2f;
+        border: 0.5px solid v.$pink5;
 
         .projectImg{        
             img{
@@ -67,9 +67,10 @@
             color:v.$pc;
         }
 
+                   
         .btn2 {
             background-image: linear-gradient(to right, #FAACAC 0%, #F7f26d  51%, #FAACAC  100%);
-            padding: 10px 20px;
+            padding: 5px 15px;
             text-align: center;
             text-transform: uppercase;
             transition: 0.5s;
@@ -78,20 +79,18 @@
             border-radius: 20px;
             border: 0 solid;
             display: block;
-            font-weight: bold;
-            width: auto;
+            width:80px;
             font-size: v.$text-base;
             text-decoration: none;
-
             
-          }
-      
-          .btn2:hover {
+        }
+    
+        .btn2:hover {
             background-position: right center; /* change the direction of the change here */
             color:v.$black;
             text-decoration: none;
             transform: scale(1.1);
-          }
+        }
             .projectCardBottom{
                 display: flex;
                 justify-content: space-around;

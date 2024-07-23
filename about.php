@@ -141,52 +141,65 @@
     <div class='experience grid'>
             <h2 class='col-12'>My Life Experience</h2>
       
-            <div class="col-12 col-4-md"> 
+            <div class="col-12 col-4-md" > 
                 <h1>:></h1>
                 <h1 class='experienceTitle'>My Life <div>Experience</div></h1> 
             </div>
            
-            <div class="col-12 col-8-md">
+            <div class="col-12 col-8-md" data-aos="fade-left">
                 <div class='timeTop'>
-                    <div  class='timeLine T2003'>
-                    <p>
-                        <i class="fa-solid fa-house"></i> 
-                        Moving to Taiwan</br> 
-                        Kinder garten Primary School</br> 
-                        Junior High School</br>
-                        High School</br>
-                    </p>
-                    <h1>> 2003</h1>
-                </div>  
-                <div class='timeLine T2023'>
+                <div class='timeLine T1999'>
+                     
+                     <p><span><i class="fa-solid fa-location-dot"></i> Born in China</span></p>
+                     <h1>> 1999</h1>
+                </div>
+
+                <div  class='timeLine T2018'>
                     
                     <p>
-                        <i class="fa-solid fa-graduation-cap"></i> 
-                        Studying at  BCIT</br> 
-                        New Media Design and Web Development</br>
+                        Graduated from VGC </br>Language Colleged</br>
+                        <span>
+                            <i class="fa-solid fa-graduation-cap"></i> 
+                            Come to Canda</br>  
+                        </span> 
+                        
                     </p>
-                    <h1>> 2023</h1>
+                    <h1>> 2018</h1>
                 </div>
+                    
                 </div>
                 
               <div class='experienceImg'>
                 <img src='./img/experience/experience.png' alt='experience' />
               </div>
-                <div class='timeLine T1999'>
-                     <h1>> 1999</h1>
-                     <p><i class="fa-solid fa-location-dot"></i> Born in China</p>
-                </div>
-
-                
-
-                <div  class='timeLine T2018'>
-                    <h1>> 2018</h1>
+              <div class=timeBottom>
+              <div  class='timeLine T2003'>
+                    <h1>> 2003</h1>
                     <p>
-                        <i class="fa-solid fa-graduation-cap"></i> 
-                        Come to Canda</br> 
-                        Graduated from VGC Language Colleged</br>
+                        <span>
+                        <i class="fa-solid fa-house"></i> 
+                        Moving to Taiwan</br>
+                        </span>
+                        Kinder garten Primary School</br> 
+                        Junior High School</br>
+                        High School</br>
                     </p>
+                    
+                </div>  
+                <div class='timeLine T2023'>
+                    <h1>> 2023</h1>
+                    <p>
+                        <span>
+                             <i class="fa-solid fa-graduation-cap"></i> 
+                            Studying at  BCIT</br> 
+                        </span>
+                       
+                        New Media Design and </br>Web Development</br>
+                    </p>
+                    
                 </div>
+              </div>
+               
 
               
             </div>
@@ -202,7 +215,7 @@
     </div>
 
     <!-- Container for testimonial cards -->
-    <div class="col-12 grid testimonials-container">
+    <div class="col-12 grid testimonials-container" data-aos="fade-up">
         <!-- Testimonials will be inserted here dynamically -->
         <?php
         // Sample testimonial data

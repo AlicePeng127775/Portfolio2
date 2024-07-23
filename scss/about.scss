@@ -228,12 +228,12 @@
     }
     h1{
         color: #979A9B;
-        font-size: v.$text-xl;
+        font-size: v.$text-lg;
     }
     .experienceTitle{
         padding: 20px 0;
         color: v.$white;
-        font-size: v.$text-xl;
+        font-size: v.$text-md;
         div{
             color: v.$pink;
     }
@@ -253,33 +253,53 @@
     display: flex;
     justify-content: space-around;
     align-items: last baseline;
+    width: 80% ;
     .timeLine{
         
         width: 100%;
         i {
         color: v.$white;
-        margin-right: 10px;
         }
     
-    .T1999,  .T2018{
+     .T1999, .T2018 {
         padding: 15px;
-        border: 1px solid #444;
-        border-radius: 10px;
-        background-color: #333;
-        margin-top: -20px;
-    }
-    .T2003, .T2023 {
-        padding: 15px;
-        border: 1px solid #444;
-        border-radius: 10px;
-        background-color: #333;
         margin-bottom: -20px;
     }
+    h1{
+        font-size: v.$text-md;
+    }
+   
     p{
         font-size: 10px;
+        padding: 15px;
+        line-height: 120%;
+        span{
+            font-size: 12px;
+        }
     }
     }
    
+}
+.timeBottom{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: start;
+   .T2003,  .T2023{
+        padding: 10px;
+        h1{
+            font-size: v.$text-md;
+        }
+       
+        p{
+            font-size: 10px;
+            padding: 10px 0px;
+            line-height: 120%;
+            span{
+                font-size: 12px;
+            }
+        }
+    } 
 }
       
     
@@ -325,8 +345,8 @@
         overflow: hidden;
         scroll-behavior: smooth;
         .testimonial-card {
-            flex: 0 0 33.33%;
-            max-width: 33.33%;
+            flex: 0 0 50%;
+            max-width: 50%;
             padding: 0 10px;
             display: flex;
             flex-direction: column;
@@ -382,111 +402,130 @@
 //-----------------------------------//
 
 @media screen and (min-width: 560px) {
-    .aboutMePhoto{  
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        width: 100%; 
-         .photo{
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            margin: 20px auto;
+    .aboutMePhoto {
+        .photo {
             width: 60%;
-            position: relative;
-            .position{
-                position: absolute;
-                top:35%;
+
+            .position {
+                top: 35%;
                 left: -20%;
-                z-index: 2;
-                color: v.$white;
-                div{
+                div {
                     font-size: v.$text-sm;
-                    font-family: "Montserrat", sans-serif;
-                    font-weight: 400;
-                    font-style: normal;
                 }
-                
             }
-            .aboutTitle{
-                position: absolute;
-                top:70%;
+
+            .aboutTitle {
+                top: 70%;
                 left: 70%;
                 width: 200px;
-                z-index: 2;
-                background: linear-gradient(90deg,  #FAACAC 0%, #F7f26d  51%, #FAACAC  100%);
-                -webkit-background-clip: text;
-                color: transparent;
-                font-family: "Mea Culpa", cursive;
-                font-weight: 400;
-                font-style: normal;
                 font-size: 72px;
-        
-            }
-        }}
-    
-  } 
-
-  @media screen and (min-width: 720px) {
-    .aboutMePhoto{  
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        width: 100%; 
-         .photo{
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            margin: 20px auto;
-            width: 60%;
-            position: relative;
-            .position{
-                position: absolute;
-                top:40%;
-                left: -20%;
-                z-index: 2;
-                color: v.$white;
-                div{
-                    font-size: v.$text-sm;
-                    font-family: "Montserrat", sans-serif;
-                    font-weight: 400;
-                    font-style: normal;
-                }
-                
-            }
-            .aboutTitle{
-                position: absolute;
-                top:80%;
-                left: 75%;
-                width: 350px;
-                z-index: 2;
-                background: linear-gradient(90deg,  #FAACAC 0%, #F7f26d  51%, #FAACAC  100%);
-                -webkit-background-clip: text;
-                color: transparent;
-                font-family: "Mea Culpa", cursive;
-                font-weight: 400;
-                font-style: normal;
-                font-size: 80px;
-        
             }
         }
     }
-    .skill-all{
-        .skillCard{
-            .iconC{
+
+    .experience {
+        h2 {
+            font-size: v.$text-lg;
+        }
+
+        h1 {
+            font-size: v.$text-xl;
+        }
+
+        .experienceTitle {
+            font-size: v.$text-xl;
+        }
+    }
+
+    .timeTop {
+        width: 70%;
+
+        .timeLine {
+            .T1999, .T2018 {
+                padding: 15px;
+                margin-bottom: -20px;
+            }
+
+            h1 {
+                font-size: v.$text-xxl;
+            }
+
+            p {
+                font-size: 12px;
+                padding: 15px;
+                span {
+                    font-size: v.$text-base;
+                }
+            }
+        }
+    }
+
+    .timeBottom {
+        .T2003, .T2023 {
+            padding: 10px;
+
+            h1 {
+                font-size: v.$text-xxl;
+            }
+
+            p {
+                font-size: 12px;
+                padding: 10px 0;
+                span {
+                    font-size: v.$text-base;
+                }
+            }
+        }
+    }
+
+    .Testimonials {
+        .testimonials-container {
+        .testimonial-card {
+            flex: 0 0 33.33%;
+            max-width: 33.33%;
+        }
+    }
+    }
+
+    
+}
+
+@media screen and (min-width: 720px) {
+    .aboutMePhoto {
+        .photo {
+            width: 60%;
+
+            .position {
+                top: 40%;
+                left: -20%;
+                div {
+                    font-size: v.$text-sm;
+                }
+            }
+
+            .aboutTitle {
+                top: 80%;
+                left: 75%;
+                width: 350px;
+                font-size: 80px;
+            }
+        }
+    }
+
+    .skill-all {
+        .skillCard {
+            .iconC {
                 width: 60px;
                 height: 60px;
             }
-           
-            p{
+
+            p {
                 font-size: v.$text-base;
             }
         }
-      
-
-
     }
-    .skill{
+
+    .skill {
         .filter {
             max-width: 500px;
         }
@@ -495,109 +534,62 @@
             padding: 10px 20px;
             width: 150px;
         }
+
         .vertical-dots {
             position: absolute;
             left: 0;
             top: 70%;
             transform: translateY(-50%);
-            display: flex;
             flex-direction: column;
-        }
-    
-        .vertical-dots .dots {
-            margin: 4px 0;
-        }
-    
-    }
 
-}
-@media screen and (min-width: 960px) {
-    .aboutMePhoto{  
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        width: 100%; 
-         .photo{
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            margin: 20px auto;
-            width: 40%;
-            position: relative;
-            .position{
-                position: absolute;
-                top:35%;
-                left: -20%;
-                z-index: 2;
-                color: v.$white;
-                div{
-                    font-size: v.$text-md;
-                    font-family: "Montserrat", sans-serif;
-                    font-weight: 400;
-                    font-style: normal;
-                }
-                
+            .dots {
+                margin: 4px 0;
             }
-            .aboutTitle{
-                position: absolute;
-                top:70%;
+        }
+    }
+}
+
+@media screen and (min-width: 960px) {
+    .aboutMePhoto {
+        .photo {
+            width: 40%;
+
+            .position {
+                top: 35%;
+                left: -20%;
+                div {
+                    font-size: v.$text-md;
+                }
+            }
+
+            .aboutTitle {
+                top: 70%;
                 left: 85%;
                 width: 350px;
-                z-index: 2;
-                background: linear-gradient(90deg,  #FAACAC 0%, #F7f26d  51%, #FAACAC  100%);
-                -webkit-background-clip: text;
-                color: transparent;
-                font-family: "Mea Culpa", cursive;
-                font-weight: 400;
-                font-style: normal;
                 font-size: 96px;
-        
             }
         }
     }
 }
 
 @media screen and (min-width: 1024px) {
-    .aboutMePhoto{  
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        width: 100%; 
-         .photo{
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            margin: 20px auto;
+    .aboutMePhoto {
+        .photo {
             width: 40%;
-            position: relative;
-            .position{
-                position: absolute;
-                top:35%;
+
+            .position {
+                top: 35%;
                 left: -20%;
-                z-index: 2;
-                color: v.$white;
-                div{
+                div {
                     font-size: v.$text-lg;
-                    font-family: "Montserrat", sans-serif;
-                    font-weight: 400;
-                    font-style: normal;
                 }
-                
             }
-            .aboutTitle{
-                position: absolute;
-                top:70%;
+
+            .aboutTitle {
+                top: 70%;
                 left: 85%;
                 width: 350px;
-                z-index: 2;
-                background: linear-gradient(90deg,  #FAACAC 0%, #F7f26d  51%, #FAACAC  100%);
-                -webkit-background-clip: text;
-                color: transparent;
-                font-family: "Mea Culpa", cursive;
-                font-weight: 400;
-                font-style: normal;
                 font-size: 120px;
-        
             }
         }
     }
