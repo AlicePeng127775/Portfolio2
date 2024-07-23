@@ -12,13 +12,32 @@
     align-items: center;
     .photo{
       width: 100%;
-      
-  
-      .alicePhoto{
+    
+      .alicePhoto {
+        position: relative;
         width: 70%;
         margin: 10px auto;
-        img{
+      
+        img {
           width: 100%;
+          z-index: 1;
+        }
+        .background-shape-container {
+          position: absolute;
+          width: 600px;
+          height: 600px;
+          top: 50%;
+          left: 50%;
+          transform: translate(-50%, -50%);
+          z-index: -1; /* Ensure it is behind the photo */  
+          .background-shape {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            width: 100%;
+            height: 100%;
+          }
         }
       }
     }
@@ -32,9 +51,6 @@
   align-items: center;
   justify-content: center;
   
-  
-  
-
     h1{
         line-height: 150%;
         font-size: v.$text-lg;

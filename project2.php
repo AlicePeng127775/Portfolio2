@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="description" content="Explore Alice Peng's portfolio featuring web development projects including the Little Fish Cares Animal Adoption Website. Discover innovative solutions in HTML, CSS, JavaScript, UI/UX design, and more.">
+    <meta name="description" content="Explore Alice Peng's portfolio featuring web development projects including the Whac-A-Mole Website GameAnimal Adoption Website. Discover innovative solutions in HTML, CSS, JavaScript, UI/UX design, and more.">
     <meta name="keywords" content="Alice Peng, Web Development, UI/UX Design, HTML, CSS, JavaScript, Visual Studio Code, WordPress, React, Portfolio">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="dist/app.css">
@@ -12,18 +12,18 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/bodymovin/5.9.6/lottie.min.js"></script>
 
     <!-- Open Graph Meta Tags -->
-        <meta property="og:title" content="Alice Peng - Little Fish Cares Website">
-        <meta property="og:description" content="Hello! I'm Alice Peng, I designed and developed the website for Little Fish Cares .">
-        <meta property="og:image" content="https://alicepeng.com/img/project/project1.png">
-        <meta property="og:url" content="https://alicepeng.com/project1">
+        <meta property="og:title" content="Alice Peng - Lumina online shop Website">
+        <meta property="og:description" content="Hello! I'm Alice Peng, I designed and developed the website for Lumina .">
+        <meta property="og:image" content="https://alicepeng.com/img/project/project2.png">
+        <meta property="og:url" content="https://alicepeng.com/project2">
         <meta property="og:type" content="website">
         <meta property="fb:app_id" content="yuan.zi.3133">
     <!-- Twitter Card Meta Tags -->
         <meta name="twitter:card" content="summary_large_image">
-        <meta name="twitter:title" content="Alice Peng - Little Fish Cares Website">
-        <meta name="twitter:description" content="Hello! I'm Alice Peng, I designed and developed the website for Little Fish Cares.">
-        <meta name="twitter:image" content="https://alicpeng.com/img/project/project1.png">
-        <meta name="twitter:url" content="https://alicepeng.com/project1">
+        <meta name="twitter:title" content="Alice Peng - Lumina online shop Website">
+        <meta name="twitter:description" content="Hello! I'm Alice Peng, I designed and developed the website for Lumina.">
+        <meta name="twitter:image" content="https://alicpeng.com/img/project/project2.png">
+        <meta name="twitter:url" content="https://alicepeng.com/project2">
         <meta name="twitter:creator" content="@775_Yu">
     <title> Alice's Project | Little Fish Cares</title>
 </head>
@@ -43,24 +43,24 @@
         <div class='project grid'>
             <div class='projectInfo col-12' data-aos="fade-up">                
                     <div class='projectIntro col-12'>
-                        <div class='project1C col-12 grid'>                        
+                        <div class='project2C col-12 grid'>                        
 
-                            <div class='projectIMG col-12 col-6-lg'><img src='./img/project/laptop1.png' alt='Little Fish cares laptop Mockup'></div>
+                            <div class='projectIMG col-12 col-6-lg'><img src='./img/project/laptop2.png' alt=' Lumina online shop Website laptop Mockup'></div>
                         
                             <div class='col-12 col-6-lg'>
-                                <h4 class='col-12 col-8-lg '>Little Fish Cares Animal Adoption</h4> 
+                                <h4 class='col-12 col-8-lg '> Lumina Online Shop Website</h4> 
                                 <div class='toolC'>
-                                <span class='tool toolBorder1'><img src='./img/skill/coding/HTML.png' alt='HTML Logo'/></span>
-                                <span class='tool toolBorder1'><img src='./img/skill/coding/CSS.png' alt='CSS Logo'/></span>
-                                <span class='tool toolBorder1'><img src='./img/skill/coding/Java Script.png' alt='JavaScript Logo'/></span>
-                                <span class='tool toolBorder1'><img src='./img/skill/coding/Visual Studio Code.png' alt='Visual Studio Code Logo'/></span>
-                                <span class='tool toolBorder1'><img src='./img/skill/design/Figma.png' alt='Figma Logo'/></span>
-                                <span class='tool toolBorder1'><img src='./img/skill/design/Illustrator.png' alt='Illustrator Logo'/></span>
+                                <span class='tool toolBorder2'><img src='./img/skill/coding/HTML.png' alt='HTML Logo'/></span>
+                                <span class='tool toolBorder2'><img src='./img/skill/coding/CSS.png' alt='CSS Logo'/></span>
+                                <span class='tool toolBorder2'><img src='./img/skill/coding/Java Script.png' alt='JavaScript Logo'/></span>
+                                <span class='tool toolBorder2'><img src='./img/skill/coding/Visual Studio Code.png' alt='Visual Studio Code Logo'/></span>
+                                <span class='tool toolBorder2'><img src='./img/skill/design/Figma.png' alt='Figma Logo'/></span>
+                                <span class='tool toolBorder2'><img src='./img/skill/design/Illustrator.png' alt='Illustrator Logo'/></span>
 
                                 </div>
                                 
 
-                                <h6>Little fish cares is a pet adoption agency in Vancouver. <br> 
+                                <h6>Lumina is a candle shop in Vancouver. <br> 
 
                                     Their mission statement is:<br>
                                     Every stray animal is a ‘little fish’ and they want to save them.Provide them with medical care. Become their ‘transit station’ and help them find a warm home.<br> 
@@ -68,13 +68,13 @@
 
                                 <div class='linkBtn col-12 col-4-lg'>
                                     <a href="https://lumina.aliccccc.com/"><i class="fa-solid fa-link"></i>Lauch&nbsp;Site</a>
-                                    <a href="https://lumina.alicccc.com/"><i class="fa-brands fa-github"></i>View&nbsp;Code</a>
+                                    <a href="https://lumina.aliccccc.com/"><i class="fa-brands fa-github"></i>View&nbsp;Code</a>
                                 </div>
 
                             </div>
                         </div>
                         <div class='mockupC col-12 grid'>
-                            <div class='mockup col-12'><img src='./img/project/Mockup1.png' alt='Little Fish cares web site Mockup'></div>
+                            <div class='mockup col-12'><img src='./img/project/Mockup2.png' alt=' Lumina online shop Website  Mockup'></div>
                         </div>
                         
                           
@@ -156,7 +156,7 @@
 
 
                                     Finally, I used Leaflet.js to create a map, so
-                                    that even if little fish cares to add a new
+                                    that even if Whac-A-Mole Website Gameto add a new
                                     location in the future, it can be marked on
                                     the map, which is very flexible and
                                     convenient.<br><br>
@@ -176,10 +176,10 @@
         <div class='ontherProject container grid' data-aos="fade-up">
            
                 <div class='project col-12 col-6-sm col-6-md col-4-lg'>
-                    <div class='projectImg'><img src='./img/project/project2.png'  alt="Lumina online shopping Website"></div>
+                    <div class='projectImg'><img src='./img/project/project1.png'  alt="Little Fish Cares Website"></div>
                     <div class='projectInfo'>
-                        <h4>Lumina online shopping Website</h4>
-                        <a href='project2.php' class='viewBtn btn2'> View  <i class="fa-solid fa-arrow-right"></i> </a>
+                        <h4>Little Fish Cares Website </h4>
+                        <a href='project1.php' class='viewBtn btn2'> View  <i class="fa-solid fa-arrow-right"></i> </a>
                     </div>
                 </div>
 

@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="description" content="Explore Alice Peng's portfolio featuring web development projects including the Little Fish Cares Animal Adoption Website. Discover innovative solutions in HTML, CSS, JavaScript, UI/UX design, and more.">
+    <meta name="description" content="Explore Alice Peng's portfolio featuring web development projects including the Whac-A-Mole Website GameAnimal Adoption Website. Discover innovative solutions in HTML, CSS, JavaScript, UI/UX design, and more.">
     <meta name="keywords" content="Alice Peng, Web Development, UI/UX Design, HTML, CSS, JavaScript, Visual Studio Code, WordPress, React, Portfolio">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="dist/app.css">
@@ -45,7 +45,7 @@
                     <div class='projectIntro col-12'>
                         <div class='project1C col-12 grid'>                        
 
-                            <div class='projectIMG col-12 col-6-lg'><img src='./img/project/laptop1.png' alt='Little Fish cares laptop Mockup'></div>
+                            <div class='projectIMG col-12 col-6-lg'><img src='./img/project/laptop1.png' alt='Little Fish Cares laptop Mockup'></div>
                         
                             <div class='col-12 col-6-lg'>
                                 <h4 class='col-12 col-8-lg '>Little Fish Cares Animal Adoption</h4> 
@@ -60,21 +60,21 @@
                                 </div>
                                 
 
-                                <h6>Little fish cares is a pet adoption agency in Vancouver. <br> 
+                                <h6>Little Fish Cares is a pet adoption agency in Vancouver. <br> 
 
                                     Their mission statement is:<br>
                                     Every stray animal is a ‘little fish’ and they want to save them.Provide them with medical care. Become their ‘transit station’ and help them find a warm home.<br> 
                                 </h6>
 
                                 <div class='linkBtn col-12 col-4-lg'>
-                                    <a href="https://lumina.aliccccce.com/"><i class="fa-solid fa-link"></i>Lauch&nbsp;Site</a>
+                                    <a href="https://littlefishcares.aliccccc.com/"><i class="fa-solid fa-link"></i>Lauch&nbsp;Site</a>
                                     <a href="#"><i class="fa-brands fa-github"></i>View&nbsp;Code</a>
                                 </div>
 
                             </div>
                         </div>
                         <div class='mockupC col-12 grid'>
-                            <div class='mockup col-12'><img src='./img/project/Mockup1.png' alt='Little Fish cares web site Mockup'></div>
+                            <div class='mockup col-12'><img src='./img/project/Mockup1.png' alt='Little Fish Cares web site Mockup'></div>
                         </div>
                         
                           
@@ -156,7 +156,7 @@
 
 
                                     Finally, I used Leaflet.js to create a map, so
-                                    that even if little fish cares to add a new
+                                    that even if Whac-A-Mole Website Gameto add a new
                                     location in the future, it can be marked on
                                     the map, which is very flexible and
                                     convenient.<br><br>

@@ -44,11 +44,11 @@
     
     <div class='allProject container grid'>
         <div class='project grid  col-12 col-4-lg' data-aos="fade-right">
-            <div class='projectImg col-12'><img src='./img/project/project1.png' alt="little fish cares website"></div>
+            <div class='projectImg col-12'><img src='./img/project/project1.png' alt="Little Fish Cares website"></div>
             <div class='projectInfo col-12'>
                 <h5>Little Fish Cares Animal Adoption Website</h5>
      
-                <p>Little fish cares is a pet adoption organization in Vancouver. The purpose of this project is to demonstrate the use of HTML, CSS, JavaScript combined with other JavaScript libraries and JQ plugins to complete web pages.</p>
+                <p>Little Fish Cares is a pet adoption organization in Vancouver. The purpose of this project is to demonstrate the use of HTML, CSS, JavaScript combined with other JavaScript libraries and JQ plugins to complete web pages.</p>
                <div class='projectCardBottom'>
                 <div class='toolC'>
                 <span class='tool'><img src='./img/skill/coding/HTML.png' alt='HTML Logo'/></span>

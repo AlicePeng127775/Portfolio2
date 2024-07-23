@@ -1,73 +1,95 @@
 @use"base/variables.scss" as v;
 @use "base/functions.scss" as f;
 
-
-.aboutMe{
-    color: v.$pc;
-    align-items: last baseline;
+.aboutMePhoto{  
+    display: flex;
+    align-items: center;
     justify-content: center;
-    margin: 0 auto;
-    
-    .photo{
+    width: 100%; 
+     .photo{
         display: flex;
         align-items: center;
         justify-content: center;
-        margin: 0 auto;
-          
+        margin: 20px auto;
+        width: 70%;
+        position: relative;
+        .position{
+            position: absolute;
+            top:35%;
+            left: -20%;
+            z-index: 2;
+            color: v.$white;
+            div{
+                font-size: v.$text-base;
+                font-family: "Montserrat", sans-serif;
+                font-weight: 400;
+                font-style: normal;
+            }
+            
+        }
+        .aboutTitle{
+            position: absolute;
+            top:70%;
+            left: 60%;
+            width: 200px;
+            z-index: 2;
+            background: linear-gradient(90deg,  #FAACAC 0%, #F7f26d  51%, #FAACAC  100%);
+            -webkit-background-clip: text;
+            color: transparent;
+            font-family: "Mea Culpa", cursive;
+            font-weight: 400;
+            font-style: normal;
+            font-size: 72px;
+    
+        }
+        .background{
+            border-radius: 50% 50% 20px 20px;
+            position: absolute;
+            top:50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            z-index: -1;
+            width: 110%;
+            height: 100%;
+            background-color:#9A7D7D;
+            
+        }
         img{
-            width: 80%;
+            width: 100%;
+            border-radius: 40% 40% 20px 20px;
         }
     }
-    .info{
-        display: flex;
-        flex-direction: column;
-        justify-content: space-evenly;
-        padding: 0 16px;
+}
+.aboutMe{
+    color: v.$pc;
+    align-items: start;
+    justify-content: center;
+    margin: 40px auto;
+    padding: 80px 5%;
+    background-color:#EDEDED11;
+    ;
+        .aboutUnderLine{
+            position: relative;
+            display: inline-block;
+            font-size: v.$text-xl;
+            margin-bottom:25px;
+        }
+        .aboutUnderLine::after {
+            content: '';
+            position: absolute;
+            bottom: -10px; /* 調整下滑線的位置 */
+            left: 0;
+            width: 20%; /* 下滑線覆蓋1/3文字 */
+            height: 4px; /* 下滑線的厚度 */
+            background-color:v.$pink; /* 下滑線的顏色 */
+        }
 
         p{
             margin: 20px auto;
             line-height: 180%;
             color: v.$gray;
+            width: 100%;
         }
-
-        h2{
-            text-shadow: 0 0 10px v.$pink;
-        }
-
-
-    .contactIcon{
-        display: grid;
-        grid-template-columns: repeat(4, 1fr);
-        align-items: center;
-        margin-bottom: 0;
-        
-        div{
-            
-            width: 60px;
-            height: 60px;
-            background-color:v.$icb;
-            border-radius: 50%;
-            color: v.$gray;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            a{
-                i{
-                    color:v.$pc;
-                }
-            }
-
-
-        }
-
-        div:hover{
-            background: v.$pink;
-            color: v.$black;
-            box-shadow: 0 0 10px v.$pink;
-        }
-    }
-
-}
 }
 
 //-----------------------------------//
@@ -78,8 +100,9 @@
     position: relative;
     h2{
         margin-top: 50px;
-        font-size: v.$text-lg;
+        font-size: v.$text-xl;
         color: v.$white;
+        text-align: center;
     }
 }
 
@@ -101,8 +124,8 @@
 
  
     .iconC {
-        width: 60px;
-        height: 60px;
+        width: 50px;
+        height: 50px;
         border-radius: 50%;
         display: flex;
         align-items: center;
@@ -123,8 +146,6 @@
     }
 }
 
-
-
  .skillCard:hover .iconC{
     transform: scale(1.1);  
 }
@@ -134,76 +155,450 @@
 //             Slides                //
 //-----------------------------------//
 
-.Back, .forward {
-    cursor: pointer;
-    position: absolute;
-    top: 50%;
-    width: auto;
-    padding: 10px;
-    color: white;
-    font-weight: bold;
-    font-size: 1rem;
-    transition: 0.4s ease;
-    border-radius: 0 5px 5px 0;
-    user-select: none;
+.skill {
+    margin: 40px 0;
+    position: relative;
+    .filter{
+        max-width: 300px;
+        margin: 10px auto;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        
+        button{
+            background-color: transparent;
+            border: 0.5px solid #979A9B;
+            border-radius: 20px;
+            color: #979A9B;
+            padding: 5px 20px;
+            width: 90px;
+            margin: 10px;
+            transition: all 0.3s ease;
+        }
+        button.active {
+            border-color: v.$pink;
+            color: v.$pink;
+        }
+
+    }
+    .vertical-dots {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    .vertical-dots .dots {
+        cursor: pointer;
+        height: 8px;
+        width: 8px;
+        margin: 0 4px;
+        background-color: #bbb;
+        border-radius: 50%;
+        display: inline-block;
+        transition: background-color 0.6s ease;
+    }
+
+    .vertical-dots .dots.enable {
+        background-color: v.$pink;
+    }
+
+    /* Additional CSS to handle visibility of slides */
+    .skill-all {
+        display: none;
+    }
+
+    .skill-all.active {
+        display: block;
+    }
 }
-  
-.forward {
-    right: 0;
-    border-radius: 4px 0 0 4px;
+//-----------------------------------//
+//          Experience               //
+//-----------------------------------//
+.experience{
+    width:100%;
+    margin: 60px 0;
+    padding: 60px 4dvb;
+    height: 700px;
+    align-items: center;
+    background-color:#EDEDED11;
+    h2{
+        text-align: center;
+        color: v.$white;
+        width: 100%;
+    }
+    h1{
+        color: #979A9B;
+        font-size: v.$text-xl;
+    }
+    .experienceTitle{
+        padding: 20px 0;
+        color: v.$white;
+        font-size: v.$text-xl;
+        div{
+            color: v.$pink;
+    }
+    }
+    .experienceImg{
+        position: relative;
+        align-items: center;
+        width: 100%;
+        img{
+            width: 90%;
+        } 
+      
+    }
+
+
+.timeTop{
+    display: flex;
+    justify-content: space-around;
+    align-items: last baseline;
+    .timeLine{
+        
+        width: 100%;
+        i {
+        color: v.$white;
+        margin-right: 10px;
+        }
+    
+    .T1999,  .T2018{
+        padding: 15px;
+        border: 1px solid #444;
+        border-radius: 10px;
+        background-color: #333;
+        margin-top: -20px;
+    }
+    .T2003, .T2023 {
+        padding: 15px;
+        border: 1px solid #444;
+        border-radius: 10px;
+        background-color: #333;
+        margin-bottom: -20px;
+    }
+    p{
+        font-size: 10px;
+    }
+    }
+   
+}
+      
+    
 }
 
-.Back{
-    left: 0;
+
+//-----------------------------------//
+//        Testimonials               //
+//-----------------------------------//
+
+.Testimonials {
+    width: 100%;
+    margin: 60px 0;
+    padding: 60px 0;
+    h2 {
+        text-align: center;
+        color: white;
+        width: 100%;
+    }
+    .btnclass {
+        margin: 20px auto;
+        .nav-btn {
+            border-radius: 50%;
+            border: 1px solid v.$pink;
+            background-color: transparent;
+            color: v.$pink;
+            cursor: pointer;
+            padding: 18px 20px;
+            font-size: 16px;
+            margin: 0 0.5rem;
+            transition: background-color 0.3s, color 0.3s;
+
+            &:hover,
+            &.active {
+                background-color: v.$pink;
+                color: white;
+            }
+        }
+    }
+
+    .testimonials-container {
+        display: flex;
+        overflow: hidden;
+        scroll-behavior: smooth;
+        .testimonial-card {
+            flex: 0 0 33.33%;
+            max-width: 33.33%;
+            padding: 0 10px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+            padding: 40px 20px;
+            background-color: #9A7D7D88;
+            border-radius: 20px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s, box-shadow 0.3s;
+            &:hover {
+                transform: translateY(-5px);
+                box-shadow: 0 6px 8px rgba(0, 0, 0, 0.15);
+            }
+            .testimonial-top {
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+                justify-content: space-between;
+                width: 100%;
+            }
+            .imgC {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                margin-bottom: 1rem;
+                img {
+                    border-radius: 50%;
+                    width: 80px;
+                    height: 80px;
+                    object-fit: cover;
+                }
+            }
+            h4 {
+                margin: 0.5em 0 0.2em 0;
+                font-size: 16px;
+                color: white;
+            }
+            p {
+                margin: 10px 5px;
+                font-size: 14px;
+                color: #ddd;
+                text-align: start;
+            }
+        }
+    }
 }
-  
-.Back:hover, .forward:hover {
-    background-color: var(--dark);
-}
-  
-.dots {
-    cursor: pointer;
-    bottom: 10px;
-    height: 0.5rem;
-    width: 0.5rem;
-    margin: 0 3px;
-    background-color: #acc;
-    border-radius: 50%;
-    display: inline-block;
-    transition: background-color 0.5s ease;
-}
-  
-.enable, .dots:hover {
-    background-color: #717161;
-}
-  
-.fade {
-    animation-name: fade;
-    animation-duration: 1.4s;
-}
-  
-@keyframes fade {
-    from {opacity: .5}
-    to {opacity: 2}
-}
+
+
 
 //-----------------------------------//
 //             media                 //
 //-----------------------------------//
 
 @media screen and (min-width: 560px) {
+    .aboutMePhoto{  
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%; 
+         .photo{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin: 20px auto;
+            width: 60%;
+            position: relative;
+            .position{
+                position: absolute;
+                top:35%;
+                left: -20%;
+                z-index: 2;
+                color: v.$white;
+                div{
+                    font-size: v.$text-sm;
+                    font-family: "Montserrat", sans-serif;
+                    font-weight: 400;
+                    font-style: normal;
+                }
+                
+            }
+            .aboutTitle{
+                position: absolute;
+                top:70%;
+                left: 70%;
+                width: 200px;
+                z-index: 2;
+                background: linear-gradient(90deg,  #FAACAC 0%, #F7f26d  51%, #FAACAC  100%);
+                -webkit-background-clip: text;
+                color: transparent;
+                font-family: "Mea Culpa", cursive;
+                font-weight: 400;
+                font-style: normal;
+                font-size: 72px;
+        
+            }
+        }}
+    
+  } 
 
+  @media screen and (min-width: 720px) {
+    .aboutMePhoto{  
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%; 
+         .photo{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin: 20px auto;
+            width: 60%;
+            position: relative;
+            .position{
+                position: absolute;
+                top:40%;
+                left: -20%;
+                z-index: 2;
+                color: v.$white;
+                div{
+                    font-size: v.$text-sm;
+                    font-family: "Montserrat", sans-serif;
+                    font-weight: 400;
+                    font-style: normal;
+                }
+                
+            }
+            .aboutTitle{
+                position: absolute;
+                top:80%;
+                left: 75%;
+                width: 350px;
+                z-index: 2;
+                background: linear-gradient(90deg,  #FAACAC 0%, #F7f26d  51%, #FAACAC  100%);
+                -webkit-background-clip: text;
+                color: transparent;
+                font-family: "Mea Culpa", cursive;
+                font-weight: 400;
+                font-style: normal;
+                font-size: 80px;
+        
+            }
+        }
+    }
     .skill-all{
         .skillCard{
             .iconC{
-                width: 80px;
-                height: 80px;
+                width: 60px;
+                height: 60px;
             }
            
             p{
                 font-size: v.$text-base;
             }
         }
+      
+
+
     }
+    .skill{
+        .filter {
+            max-width: 500px;
+        }
+
+        .filter button {
+            padding: 10px 20px;
+            width: 150px;
+        }
+        .vertical-dots {
+            position: absolute;
+            left: 0;
+            top: 70%;
+            transform: translateY(-50%);
+            display: flex;
+            flex-direction: column;
+        }
     
-  }
+        .vertical-dots .dots {
+            margin: 4px 0;
+        }
+    
+    }
+
+}
+@media screen and (min-width: 960px) {
+    .aboutMePhoto{  
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%; 
+         .photo{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin: 20px auto;
+            width: 40%;
+            position: relative;
+            .position{
+                position: absolute;
+                top:35%;
+                left: -20%;
+                z-index: 2;
+                color: v.$white;
+                div{
+                    font-size: v.$text-md;
+                    font-family: "Montserrat", sans-serif;
+                    font-weight: 400;
+                    font-style: normal;
+                }
+                
+            }
+            .aboutTitle{
+                position: absolute;
+                top:70%;
+                left: 85%;
+                width: 350px;
+                z-index: 2;
+                background: linear-gradient(90deg,  #FAACAC 0%, #F7f26d  51%, #FAACAC  100%);
+                -webkit-background-clip: text;
+                color: transparent;
+                font-family: "Mea Culpa", cursive;
+                font-weight: 400;
+                font-style: normal;
+                font-size: 96px;
+        
+            }
+        }
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .aboutMePhoto{  
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%; 
+         .photo{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin: 20px auto;
+            width: 40%;
+            position: relative;
+            .position{
+                position: absolute;
+                top:35%;
+                left: -20%;
+                z-index: 2;
+                color: v.$white;
+                div{
+                    font-size: v.$text-lg;
+                    font-family: "Montserrat", sans-serif;
+                    font-weight: 400;
+                    font-style: normal;
+                }
+                
+            }
+            .aboutTitle{
+                position: absolute;
+                top:70%;
+                left: 85%;
+                width: 350px;
+                z-index: 2;
+                background: linear-gradient(90deg,  #FAACAC 0%, #F7f26d  51%, #FAACAC  100%);
+                -webkit-background-clip: text;
+                color: transparent;
+                font-family: "Mea Culpa", cursive;
+                font-weight: 400;
+                font-style: normal;
+                font-size: 120px;
+        
+            }
+        }
+    }
+}
