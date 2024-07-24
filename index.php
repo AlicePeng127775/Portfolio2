@@ -44,26 +44,12 @@
     <!----------------- header ------------------>
     <?php require_once("partials/header.php") ?>
     <!------------------------------------------->
+    <canvas id="bg-animation"></canvas>
+
     <main class='container'>
         <div class='homeIntro grid'>
             <div class='photo col-12 col-6-md col-6-lg'>
                 <div class='alicePhoto' style="position: relative;">
-                    <div class="background-shape-container">
-                        <svg class="background-shape" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
-                            <path id="blob" d="M43.3,-55.6C55.8,-42.8,65.5,-28.4,66.3,-13.3C67,1.7,59,17.6,47.8,26.6C36.6,35.7,22.3,37.9,7.5,40.6C-7.3,43.2,-14.7,46.3,-27.6,46.2C-40.5,46,-59,42.6,-60.4,33.7C-61.8,24.9,-46.2,10.6,-37.8,-2.3C-29.4,-15.2,-28.2,-26.8,-21.3,-39.5C-14.3,-52.2,-1.7,-66,11.8,-69.7C25.4,-73.4,39.6,-67.1,43.3,-55.6Z" fill="url(#grad1)" opacity="0.8"/>
-                            <path id="blob2" d="M32.7,-47.9C45.6,-35.1,59.4,-23.6,64.2,-8.5C69,6.5,64.7,26.1,55.8,36.4C46.9,46.6,33.4,47.6,21.2,50.2C9.1,52.8,-1.8,57,-10.4,53.7C-19,50.3,-26.4,39.4,-31.3,29.5C-36.2,19.6,-38.6,10.7,-46.6,-3.5C-54.6,-17.7,-68.2,-35.3,-65.5,-40.1C-62.8,-44.9,-43.8,-36.9,-30.8,-40.6C-17.9,-44.3,-8.9,-59.7,3.2,-64.2C15.3,-68.7,30.5,-62.3,32.7,-47.9Z" fill="url(#grad2)" opacity="0.6"/>
-                            <defs>
-                                <linearGradient id="grad1" x1="0%" y1="0%" x2="100%" y2="100%">
-                                    <stop offset="0%" style="stop-color:rgb(255,215,0);stop-opacity:1" />
-                                    <stop offset="100%" style="stop-color:rgb(255,105,180);stop-opacity:1" />
-                                </linearGradient>
-                                <linearGradient id="grad2" x1="0%" y1="0%" x2="100%">
-                                    <stop offset="0%" style="stop-color:rgb(75,0,130);stop-opacity:1" />
-                                    <stop offset="100%" style="stop-color:rgb(238,130,238);stop-opacity:1" />
-                                </linearGradient>
-                            </defs>
-                        </svg>
-                    </div>
                     <img src='./img/photo/Alice01.png' alt="Alice photo"/>
                 </div>
             </div>
@@ -89,7 +75,10 @@
     <!----------------- footer ------------------>
     <?php require_once("partials/footer.php") ?>
     <!------------------------------------------->
-
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.19.0/TweenLite.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.19.0/easing/EasePack.min.js"></script>
+    <script type='text/javascript' src='resources/scripts/bg-animation.js'></script>
+    <script src='./js/app.js'></script>
     <script>
         /* Typing my Name */
         const typed = new Typed('#element', {
@@ -101,22 +90,240 @@
         });
 
         /* GSAP Animation for Background Shape */
-        const blob = document.querySelector('#blob');
-        const blob2 = document.querySelector('#blob2');
+        gsap.timeline({ repeat: -1, yoyo: true })
+            .to(".alicePhoto", { 
+                borderRadius: "70% 58% 60% 50% / 85% 90% 55% 75%",
+                transform: "translate3d(0,0,0) rotateZ(0.01deg)",
+                duration: 0,
+                backgroundColor: "#faacac99",
+            })
+            .to(".alicePhoto", { 
+                borderRadius: "60% 50% 60% 70% / 70% 50% 70% 70%",
+                transform: "translate3d(0,5px,0) rotateZ(0.01deg)",
+                duration: 1.7,
+                ease: "linear"
+            })
+            .to(".alicePhoto", { 
+                transform: "translate3d(0,0,0) rotateZ(0.01deg)",
+                duration: 0.8,
+                ease: "linear",
+                
+                backgroundColor: "#Ff999999",
+            })
+            .to(".alicePhoto", { 
+                borderRadius: "100% 80% 60% 100% / 100% 100% 80% 90%",
+                transform: "translate3d(0,-3px,0) rotateZ(0.01deg)",
+                duration: 1.6,
+                ease: "linear"
+            });
 
-        function animateBlob() {
-            const timeline = gsap.timeline({ repeat: -1, yoyo: true });
-            timeline.to(blob, { duration: 10, attr: { d: "M43.3,-55.6C55.8,-42.8,65.5,-28.4,66.3,-13.3C67,1.7,59,17.6,47.8,26.6C36.6,35.7,22.3,37.9,7.5,40.6C-7.3,43.2,-14.7,46.3,-27.6,46.2C-40.5,46,-59,42.6,-60.4,33.7C-61.8,24.9,-46.2,10.6,-37.8,-2.3C-29.4,-15.2,-28.2,-26.8,-21.3,-39.5C-14.3,-52.2,-1.7,-66,11.8,-69.7C25.4,-73.4,39.6,-67.1,43.3,-55.6Z" }, ease: "power1.inOut" })
-                .to(blob, { duration: 10, attr: { d: "M32.7,-47.9C45.6,-35.1,59.4,-23.6,64.2,-8.5C69,6.5,64.7,26.1,55.8,36.4C46.9,46.6,33.4,47.6,21.2,50.2C9.1,52.8,-1.8,57,-10.4,53.7C-19,50.3,-26.4,39.4,-31.3,29.5C-36.2,19.6,-38.6,10.7,-46.6,-3.5C-54.6,-17.7,-68.2,-35.3,-65.5,-40.1C-62.8,-44.9,-43.8,-36.9,-30.8,-40.6C-17.9,-44.3,-8.9,-59.7,3.2,-64.2C15.3,-68.7,30.5,-62.3,32.7,-47.9Z" }, ease: "power1.inOut" })
-                .to(blob, { duration: 10, attr: { d: "M30.4,-45.7C40.5,-33.6,48.6,-22.1,53.7,-8.4C58.8,5.4,61,20.4,56.3,32.1C51.6,43.8,40.1,52.3,27.2,54.5C14.3,56.8,0,52.9,-13.4,49.1C-26.8,45.3,-39.3,41.6,-41.3,33.5C-43.4,25.4,-34.9,13.1,-36.8,-0.3C-38.6,-13.7,-50.8,-27.5,-50.5,-37.5C-50.3,-47.6,-37.7,-53.9,-25.4,-61.4C-13.1,-68.9,-6.5,-77.7,2.4,-80.9C11.2,-84,22.4,-81.4,30.4,-73.2C38.3,-65,43,-51.9,30.4,-45.7Z" }, ease: "power1.inOut" });
+            /* Animation Background */
 
-            const timeline2 = gsap.timeline({ repeat: -1, yoyo: true });
-            timeline2.to(blob2, { duration: 10, attr: { d: "M32.7,-47.9C45.6,-35.1,59.4,-23.6,64.2,-8.5C69,6.5,64.7,26.1,55.8,36.4C46.9,46.6,33.4,47.6,21.2,50.2C9.1,52.8,-1.8,57,-10.4,53.7C-19,50.3,-26.4,39.4,-31.3,29.5C-36.2,19.6,-38.6,10.7,-46.6,-3.5C-54.6,-17.7,-68.2,-35.3,-65.5,-40.1C-62.8,-44.9,-43.8,-36.9,-30.8,-40.6C-17.9,-44.3,-8.9,-59.7,3.2,-64.2C15.3,-68.7,30.5,-62.3,32.7,-47.9Z" }, ease: "power1.inOut" })
-                .to(blob2, { duration: 10, attr: { d: "M43.3,-55.6C55.8,-42.8,65.5,-28.4,66.3,-13.3C67,1.7,59,17.6,47.8,26.6C36.6,35.7,22.3,37.9,7.5,40.6C-7.3,43.2,-14.7,46.3,-27.6,46.2C-40.5,46,-59,42.6,-60.4,33.7C-61.8,24.9,-46.2,10.6,-37.8,-2.3C-29.4,-15.2,-28.2,-26.8,-21.3,-39.5C-14.3,-52.2,-1.7,-66,11.8,-69.7C25.4,-73.4,39.6,-67.1,43.3,-55.6Z" }, ease: "power1.inOut" })
-                .to(blob2, { duration: 10, attr: { d: "M30.4,-45.7C40.5,-33.6,48.6,-22.1,53.7,-8.4C58.8,5.4,61,20.4,56.3,32.1C51.6,43.8,40.1,52.3,27.2,54.5C14.3,56.8,0,52.9,-13.4,49.1C-26.8,45.3,-39.3,41.6,-41.3,33.5C-43.4,25.4,-34.9,13.1,-36.8,-0.3C-38.6,-13.7,-50.8,-27.5,-50.5,-37.5C-50.3,-47.6,-37.7,-53.9,-25.4,-61.4C-13.1,-68.9,-6.5,-77.7,2.4,-80.9C11.2,-84,22.4,-81.4,30.4,-73.2C38.3,-65,43,-51.9,30.4,-45.7Z" }, ease: "power1.inOut" });
+            (function() {
+
+var width, height, canvas, ctx, points, target, animateHeader = true;
+var colorRGB = 128;
+
+// Main
+initHeader();
+initAnimation();
+addListeners();
+
+function initHeader() {
+    width = window.innerWidth;
+    height = window.innerHeight;
+    target = {x: width/2, y: height/2};
+
+
+    canvas = document.getElementById('bg-animation');
+    canvas.width = width;
+    canvas.height = height;
+    ctx = canvas.getContext('2d');
+
+    // create points
+    points = [];
+    for(var x = 0; x < width; x = x + width/20) {
+        for(var y = 0; y < height; y = y + height/20) {
+            var px = x + Math.random()*width/20;
+            var py = y + Math.random()*height/20;
+            var p = {x: px, originX: px, y: py, originY: py };
+            points.push(p);
         }
+    }
 
-        animateBlob();
+    // for each point find the 5 closest points
+    for(var i = 0; i < points.length; i++) {
+        var closest = [];
+        var p1 = points[i];
+        for(var j = 0; j < points.length; j++) {
+            var p2 = points[j]
+            if(!(p1 == p2)) {
+                var placed = false;
+                for(var k = 0; k < 5; k++) {
+                    if(!placed) {
+                        if(closest[k] == undefined) {
+                            closest[k] = p2;
+                            placed = true;
+                        }
+                    }
+                }
+
+                for(var k = 0; k < 5; k++) {
+                    if(!placed) {
+                        if(getDistance(p1, p2) < getDistance(p1, closest[k])) {
+                            closest[k] = p2;
+                            placed = true;
+                        }
+                    }
+                }
+            }
+        }
+        p1.closest = closest;
+    }
+
+    // assign a circle to each point
+    for(var i in points) {
+        var c = new Circle(points[i], 2+Math.random()*2, 'rgba(255,255,255,0.3)');
+        points[i].circle = c;
+    }
+}
+
+// Event handling
+function addListeners() {
+    if(!('ontouchstart' in window)) {
+        window.addEventListener('mousemove', mouseMove);
+    }
+    window.addEventListener('scroll', scrollCheck);
+    window.addEventListener('resize', resize);
+}
+
+function mouseMove(e) {
+    var posx = posy = 0;
+    if (e.pageX || e.pageY) {
+        posx = e.pageX;
+        posy = e.pageY - $(window).scrollTop();
+        absolutePosy = e.pageY;
+    }
+    else if (e.clientX || e.clientY)    {
+        posx = e.clientX + document.body.scrollLeft + document.documentElement.scrollLeft;
+        posy = e.clientY + document.body.scrollTop + document.documentElement.scrollTop;
+    }
+
+    target.x = posx;
+    target.y = posy;
+    
+    if($('body').hasClass('single-iaa_programs')){
+        if(absolutePosy > 800){
+            colorRGB = 128;
+        } else {
+            colorRGB = 255;
+        }
+    } else if($('body').hasClass('page-template-default')){
+        if(absolutePosy > 600){
+            colorRGB = 128;
+        } else {
+            colorRGB = 255;
+        }
+    }
+}
+
+function scrollCheck() {
+    
+}
+
+function resize() {
+
+    width = window.innerWidth;
+    height = window.innerHeight;
+    ctx.canvas.width = width;
+    ctx.canvas.height = height;
+    
+}
+
+// animation
+function initAnimation() {
+    animate();
+    for(var i in points) {
+        shiftPoint(points[i]);
+    }
+}
+
+function animate() {
+    if(animateHeader) {
+        ctx.clearRect(0,0,width,height);
+        for(var i in points) {
+            // detect points in range
+            if(Math.abs(getDistance(target, points[i])) < 4000) {
+                points[i].active = 0.3;
+                points[i].circle.active = 0.6;
+            } else if(Math.abs(getDistance(target, points[i])) < 20000) {
+                points[i].active = 0.1;
+                points[i].circle.active = 0.3;
+            } else if(Math.abs(getDistance(target, points[i])) < 40000) {
+                points[i].active = 0.02;
+                points[i].circle.active = 0.1;
+            } else {
+                points[i].active = 0;
+                points[i].circle.active = 0;
+            }
+
+            drawLines(points[i]);
+            points[i].circle.draw();
+        }
+    }
+    requestAnimationFrame(animate);
+}
+
+function shiftPoint(p) {
+    TweenLite.to(p, 1+1*Math.random(), {x:p.originX-50+Math.random()*100,
+        y: p.originY-50+Math.random()*100, ease:Circ.easeInOut,
+        onComplete: function() {
+            shiftPoint(p);
+        }});
+}
+
+// Canvas manipulation
+function drawLines(p) {
+    if(!p.active) return;
+    for(var i in p.closest) {
+        ctx.beginPath();
+        ctx.moveTo(p.x, p.y);
+        ctx.lineTo(p.closest[i].x, p.closest[i].y);
+        ctx.strokeStyle = 'rgba('+colorRGB+','+colorRGB+','+colorRGB+','+ p.active+')';
+//            ctx.strokeStyle = 'rgba(156,217,249,'+ p.active+')';
+        ctx.stroke();
+    }
+}
+
+function Circle(pos,rad,color) {
+    var _this = this;
+
+    // constructor
+    (function() {
+        _this.pos = pos || null;
+        _this.radius = rad || null;
+        _this.color = color || null;
+    })();
+
+    this.draw = function() {
+        if(!_this.active) return;
+        ctx.beginPath();
+        ctx.arc(_this.pos.x, _this.pos.y, _this.radius, 0, 2 * Math.PI, false);
+        ctx.fillStyle = 'rgba('+colorRGB+','+colorRGB+','+colorRGB+','+ _this.active+')';
+        ctx.fill();
+    };
+}
+
+// Util
+function getDistance(p1, p2) {
+    return Math.pow(p1.x - p2.x, 2) + Math.pow(p1.y - p2.y, 2);
+}
+
+})();
+
+
+
+        
        
     </script>
 </body>

@@ -5,7 +5,13 @@
 /*-----------------------------------*\
   Home -- Intro
 \*-----------------------------------*/
-
+#bg-animation {
+  display: block;
+  position: absolute;
+  width: 100vw;
+  height: 100vh;
+  z-index: -1;
+}
 
 .homeIntro{
     min-height: calc(100vh - 24px - 100px);//減去footer and header
@@ -17,28 +23,18 @@
         position: relative;
         width: 70%;
         margin: 10px auto;
+        background-color: #F7f26d;
+        border-radius: 62% 47% 82% 35% / 45% 45% 80% 66%;
+          will-change: border-radius, transform, opacity;
+          display: block;
+          z-index: -1;
+
       
         img {
           width: 100%;
           z-index: 1;
         }
-        .background-shape-container {
-          position: absolute;
-          width: 600px;
-          height: 600px;
-          top: 50%;
-          left: 50%;
-          transform: translate(-50%, -50%);
-          z-index: -1; /* Ensure it is behind the photo */  
-          .background-shape {
-            position: absolute;
-            top: 50%;
-            left: 50%;
-            transform: translate(-50%, -50%);
-            width: 100%;
-            height: 100%;
-          }
-        }
+      
       }
     }
 }
@@ -93,6 +89,7 @@
       width:200px;
       font-size: v.$text-base;
       text-decoration: none;
+
       
     }
 

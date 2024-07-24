@@ -16,6 +16,13 @@ body{
     margin: auto;
     position: relative;
     min-height: 100vh;
+    #bg-animation {
+        display: block;
+        position: absolute;
+        width: 100vw;
+        height: 100vh;
+        z-index: -1;
+      }
 }
 
 h1{
