@@ -31,7 +31,7 @@
     <!----------------- header ------------------>
     <?php require_once("partials/header.php") ?>
     <!------------------------------------------->
-    <canvas id="bg-animation"></canvas>
+
     <main class='container'>
     <div class='portfolioTitle'>
         <p>Explore my latest portfolio of web development projects<br>
@@ -207,9 +207,6 @@
     <?php require_once("partials/footer.php") ?>
     <!------------------------------------------->
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.19.0/TweenLite.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.19.0/easing/EasePack.min.js"></script>
-    <script type='text/javascript' src='resources/scripts/bg-animation.js'></script>
     <script src='./js/app.js'></script>
     <script>
         var animation = lottie.loadAnimation({

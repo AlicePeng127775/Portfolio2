@@ -5,13 +5,7 @@
 /*-----------------------------------*\
   Home -- Intro
 \*-----------------------------------*/
-#bg-animation {
-  display: block;
-  position: absolute;
-  width: 100vw;
-  height: 100vh;
-  z-index: -1;
-}
+
 
 .homeIntro{
     min-height: calc(100vh - 24px - 100px);//減去footer and header
