@@ -4,7 +4,7 @@
  
 .portfolioTitle{
     margin: 24px auto;
-    margin-bottom: 420px;
+    margin-bottom: 350px;
     padding: 30px;
     width: 95%;
     align-items: center;
@@ -24,7 +24,7 @@
     }
     #lottie-animation{
         position: absolute;
-        top:200px;
+        top:300px;
         left: 50%;
         transform: translate(-50%, 0);
         width:95%; 
@@ -107,8 +107,6 @@
             .tool{
         
                 background-color:#fff;
-                color:v.$yellow;
-                font-size: v.$text-base;
                 border-radius: 50%;
                 width: 25px;
                 height: 25px;
@@ -131,6 +129,22 @@
  
 }
 
+@media (min-width: 480px) {
+    .portfolioTitle{
+        margin-bottom: 420px;
+        #lottie-animation{
+            top:225px;
+            max-width:700px;
+        }
+    }  
+  
+}
+@media (min-width: 560px) {
+    .portfolioTitle{
+        margin-bottom: 420px;
+    }  
+  
+}
 @media (min-width: 720px) {
     .portfolioTitle{
         #lottie-animation{
