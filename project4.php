@@ -51,20 +51,19 @@
                             <div class='col-12 col-6-lg'>
                                 <h4 class='col-12 col-8-lg '>October shopping app design</h4> 
                                 <div class='toolC'>
-                                <span class='tool toolBorder4'><img src='./img/skill/coding/HTML.png' alt='HTML Logo'/></span>
-                                <span class='tool toolBorder4'><img src='./img/skill/coding/CSS.png' alt='CSS Logo'/></span>
-                                <span class='tool toolBorder4'><img src='./img/skill/coding/Java Script.png' alt='JavaScript Logo'/></span>
-                                <span class='tool toolBorder4'><img src='./img/skill/coding/Visual Studio Code.png' alt='Visual Studio Code Logo'/></span>
                                 <span class='tool toolBorder4'><img src='./img/skill/design/Figma.png' alt='Figma Logo'/></span>
+                                <span class='tool toolBorder4'><img src='./img/skill/design/Photoshop.png' alt='Photoshop Logo'/></span>
                                 <span class='tool toolBorder4'><img src='./img/skill/design/Illustrator.png' alt='Illustrator Logo'/></span>
 
                                 </div>
                                 
 
-                                <h6>October shopping app design is a pet adoption agency in Vancouver. <br> 
-
-                                    Their mission statement is:<br>
-                                    Every stray animal is a ‘little fish’ and they want to save them.Provide them with medical care. Become their ‘transit station’ and help them find a warm home.<br> 
+                                <h6>October shopping app </br> <br>
+                                    October is an original Accessories company, 
+                                    In this project need to design App for they 
+                                    and create wireframe and interaction model 
+                                    using Figma and finally user testing using Maze.
+                                     Modify the model based on the test results</br>
                                 </h6>
 
                                 <div class='linkBtn col-12 col-4-lg'>
@@ -85,13 +84,25 @@
                                 <h5>Brainstorm - </br>Information Architecture:</h5>
 
                                 <p>
-                                Before designing a web page for a company, it is important to understand the company's main services, goals, missions, analyze the target audience, hypothetical scenarios, analyze the competitors.
+                                October their main audience is 16-35 years old, I created a complete user personal, user scene, empathy map and journey map for their company, to understand their user's thoughts, actions, moods, and their opportunities, in addition to creating a flow chart.
+
                                 </p>
                                 </br>
 
                                 <h5>Design - Style Guide:</h5>
                                 <p>
-                                After completing the Brainstorm information architecture, before developing the website. We need to design a Style Guide for the company, which includes designing the logo, colors, fonts, buttons, wireframes, and mockups.
+                                This time I used Figma from the first version of the wireframe. 
+                                I designed a total of 21 pages of wireframes including home page, 
+                                product overview page, product categories, single page product page, 
+                                shopping cart, checkout flow page, personal information page, and 
+                                also created wish lists, coupons page, online customer service, 
+                                browse history of orders, and other pages, which are based on 
+                                the user's journey map and the use of the flowchart to add, 
+                                implement the app functionality required by the user to provide 
+                                a better user experience. After that, I started searching and 
+                                adding product images and content, aligning them with Grid features, 
+                                changing my wireframes to high quality, adding interactive features 
+                                to make all the buttons work, changing pages, adding animations, and etc.
                                 </p>
                             </div>
                             <div class="col-12 col-6-lg">
@@ -123,44 +134,14 @@
                         </div>
                         <div class='process col-12 grid'>
                                 <div class='col-12 col-6-lg'>
-                                    <h5>Development - hand code:</h5>
+                                    <h5>Testing and modification:</h5>
                                     <p>
-                                    In the programming, I will be taught in
-                                    the classroom used to switch images
-                                    JavaScript integration into my home page
-                                    banner images so that they can be
-                                    constantly replaced, and in the future the
-                                    image needs to be replaced in fact do not
-                                    need to change the HTML and CSS and JS
-                                    parts, just need to re-upload the image
-                                    can be.<br><br>
-
-
-                                    I was also learning and experimenting
-                                    with different JavaScript libraries, and
-                                    eventually I chose AOS .js for my webpage
-                                    scrolling animation because I only needed
-                                    to have something to display when
-                                    scrolling to the content Compared to
-                                    ScrollMagic, it s much more suitable for a
-                                    normal website.<br><br>
-
-
-                                    I also used Bootstrap for the slideshow
-                                    part of the website, which saves me the
-                                    time of making a responsive website. I
-                                    also used Fancybox to show the zoom
-                                    function, and Typed.js to make the
-                                    typewriter function for the headline,
-                                    which makes my homepage more playful
-                                    and cute. <br><br>
-
-
-                                    Finally, I used Leaflet.js to create a map, so
-                                    that even if Whac-A-Mole Website Gameto add a new
-                                    location in the future, it can be marked on
-                                    the map, which is very flexible and
-                                    convenient.<br><br>
+                                    For this project, I asked for a user test using "Maze", 
+                                    and I prepared 6 tasks which included, browsing products, 
+                                    finding online customer service, opening a wish list, 
+                                    deleting items from the shopping bag, completing the 
+                                    checkout process, viewing the order history and finally 
+                                    giving me feedback!
                                     </p>
                                 </div>
                             

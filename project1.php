@@ -51,16 +51,14 @@
                             <div class='col-12 col-6-lg'>
                                 <h4 class='col-12 col-8-lg '>Little Fish Cares Animal Adoption</h4> 
                                 <div class='toolC'>
-                                <span class='tool toolBorder1'><img src='./img/skill/coding/HTML.png' alt='HTML Logo'/></span>
-                                <span class='tool toolBorder1'><img src='./img/skill/coding/CSS.png' alt='CSS Logo'/></span>
-                                <span class='tool toolBorder1'><img src='./img/skill/coding/Java Script.png' alt='JavaScript Logo'/></span>
-                                <span class='tool toolBorder1'><img src='./img/skill/coding/Visual Studio Code.png' alt='Visual Studio Code Logo'/></span>
-                                <span class='tool toolBorder1'><img src='./img/skill/design/Figma.png' alt='Figma Logo'/></span>
-                                <span class='tool toolBorder1'><img src='./img/skill/design/Illustrator.png' alt='Illustrator Logo'/></span>
-
+                                    <span class='tool toolBorder1'><img src='./img/skill/coding/HTML.png' alt='HTML Logo'/></span>
+                                    <span class='tool toolBorder1'><img src='./img/skill/coding/CSS.png' alt='CSS Logo'/></span>
+                                    <span class='tool toolBorder1'><img src='./img/skill/coding/Java Script.png' alt='JavaScript Logo'/></span>
+                                    <span class='tool toolBorder1'><img src='./img/skill/coding/Visual Studio Code.png' alt='Visual Studio Code Logo'/></span>
+                                    <span class='tool toolBorder1'><img src='./img/skill/design/Figma.png' alt='Figma Logo'/></span>
+                                    <span class='tool toolBorder1'><img src='./img/skill/design/Illustrator.png' alt='Illustrator Logo'/></span>
                                 </div>
                                 
-
                                 <h6>Little Fish Cares is a pet adoption agency in Vancouver. <br> 
 
                                     Their mission statement is:<br>

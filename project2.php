@@ -25,7 +25,7 @@
         <meta name="twitter:image" content="https://alicpeng.com/img/project/project2.png">
         <meta name="twitter:url" content="https://alicepeng.com/project2">
         <meta name="twitter:creator" content="@775_Yu">
-    <title> Alice's Project | Little Fish Cares</title>
+    <title> Alice's Project | Lumina Online Shop</title>
 </head>
 <body>
     <!----------------- header ------------------>
@@ -34,9 +34,11 @@
 
     <main class='container'>
     <div class='portfolioTitle'>
-        <p>Explore my latest portfolio of web development projects<br>
-         covering a wide range of areas from HTML , CSS, JavaScript,<br>
-          Visual Studio Code, UI/UX animation to WordPress and React.</p>
+        <p>
+            Explore my latest portfolio of web development projects<br>
+            covering a wide range of areas from HTML , CSS, JavaScript,<br>
+            Visual Studio Code, UI/UX animation to WordPress and React.
+        </p>
           <div id="lottie-animation"></div>
 
     </div>
@@ -51,20 +53,19 @@
                             <div class='col-12 col-6-lg'>
                                 <h4 class='col-12 col-8-lg '> Lumina Online Shop Website</h4> 
                                 <div class='toolC'>
-                                <span class='tool toolBorder2'><img src='./img/skill/coding/HTML.png' alt='HTML Logo'/></span>
-                                <span class='tool toolBorder2'><img src='./img/skill/coding/CSS.png' alt='CSS Logo'/></span>
-                                <span class='tool toolBorder2'><img src='./img/skill/coding/Java Script.png' alt='JavaScript Logo'/></span>
-                                <span class='tool toolBorder2'><img src='./img/skill/coding/Visual Studio Code.png' alt='Visual Studio Code Logo'/></span>
-                                <span class='tool toolBorder2'><img src='./img/skill/design/Figma.png' alt='Figma Logo'/></span>
-                                <span class='tool toolBorder2'><img src='./img/skill/design/Illustrator.png' alt='Illustrator Logo'/></span>
-
+                                    <span class='tool toolBorder2'><img src='./img/skill/coding/HTML.png' alt='HTML Logo'/></span>
+                                    <span class='tool toolBorder2'><img src='./img/skill/coding/PHP.png' alt='PHP Logo'/></span>
+                                    <span class='tool toolBorder2'><img src='./img/skill/coding/CSS.png' alt='CSS Logo'/></span>
+                                    <span class='tool toolBorder2'><img src='./img/skill/coding/Java Script.png' alt='JavaScript Logo'/></span>
+                                    <span class='tool toolBorder2'><img src='./img/skill/coding/MySQL.png' alt='MySQL Logo'/></span>
+                                    <span class='tool toolBorder2'><img src='./img/skill/coding/Visual Studio Code.png' alt='Visual Studio Code Logo'/></span>
+                                    <span class='tool toolBorder2'><img src='./img/skill/design/Figma.png' alt='Figma Logo'/></span>
+                                    <span class='tool toolBorder2'><img src='./img/skill/design/Illustrator.png' alt='Illustrator Logo'/></span>
                                 </div>
                                 
 
                                 <h6>Lumina is a candle shop in Vancouver. <br> 
-
-                                    Their mission statement is:<br>
-                                    Every stray animal is a ‘little fish’ and they want to save them.Provide them with medical care. Become their ‘transit station’ and help them find a warm home.<br> 
+                                Lumina is a candle shop located in Vancouver, this project requires our team to design and develop their online shopping website, the entire webpage was designed using Figma to design the wireframes and developed in HTML, CSS, JavaScirt,
                                 </h6>
 
                                 <div class='linkBtn col-12 col-4-lg'>
@@ -75,96 +76,44 @@
                             </div>
                         </div>
                         <div class='mockupC col-12 grid'>
-                            <div class='mockup col-12'><img src='./img/project/Mockup2.png' alt=' Lumina online shop Website  Mockup'></div>
+                            <div class='mockup col-12'><img src='./img/project/Mockup02.png' alt=' Lumina online shop Website  Mockup'></div>
                         </div>
                         
                           
 
                         <div class='process col-12 grid'>
                             <div class='col-12 col-6-lg'>
-                                <h5>Brainstorm - </br>Information Architecture:</h5>
+                                <h5>Brainstorm & Design</h5>
 
                                 <p>
-                                Before designing a web page for a company, it is important to understand the company's main services, goals, missions, analyze the target audience, hypothetical scenarios, analyze the competitors.
-                                </p>
-                                </br>
-
-                                <h5>Design - Style Guide:</h5>
-                                <p>
-                                After completing the Brainstorm information architecture, before developing the website. We need to design a Style Guide for the company, which includes designing the logo, colors, fonts, buttons, wireframes, and mockups.
+                                In this project, our team used agile methodology, at the beginning of the project Sprint 1 phase, our team built the basic framework and functionality of the website for lumina using user stories, our web designer designed the initial version of the wireframes for the website, and after continuous meetings and discussions and changes to make the website more aesthetically pleasing, we finally collaborated on the finalization of the The wireframes were finalized in collaboration with our web designer.
                                 </p>
                             </div>
-                            <div class="col-12 col-6-lg">
-                            <div style="position: relative; width: 100%; height: 0; padding-top: 56.2500%;
-                            padding-bottom: 0; box-shadow: 0 2px 8px 0 rgba(63,69,81,0.16); margin-top: 1.6em; margin-bottom: 0.9em; overflow: hidden;
-                            border-radius: 8px; will-change: transform;">
-                            <iframe loading="lazy" style="position: absolute; width: 100%; height: 100%; top: 0; left: 0; border: none; padding: 0;margin: 0;"
-                                src="https:&#x2F;&#x2F;www.canva.com&#x2F;design&#x2F;DAFoS6Q87Uc&#x2F;iIO3nkjqEx8AHjNPwP2H9w&#x2F;view?embed" allowfullscreen="allowfullscreen" allow="fullscreen">
-                            </iframe>
-                            </div>
-
-                            </div>
-
-                        </div>
-                        
-                        <div class='process col-12 grid'>
                             <div class="col-12 col-6-lg">
                             <iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" width="100%" height="450" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fdesign%2FUX5J2rhHJYjz5tuDLmsFdT%2FLittle-Fish-Cares-Wireframe%3Fnode-id%3D341-56776%26t%3DHdzoDnMwK2tRyWPQ-1" allowfullscreen></iframe>
-
                             </div>
-
-                            <div class="col-12 col-6-lg">
-                                <h5>Design - Wireframe:</h5>
-                                <p>
-                                After completing the Brainstorm information architecture, before developing the website. We need to design a Style Guide for the company, which includes designing the logo, colors, fonts, buttons, wireframes, and mockups.
-                                </p>
                             </div>
-                        
                         </div>
                         <div class='process col-12 grid'>
+                        <div id="lottie-animation2" class='col-12 col-6-lg'></div>
                                 <div class='col-12 col-6-lg'>
                                     <h5>Development - hand code:</h5>
                                     <p>
-                                    In the programming, I will be taught in
-                                    the classroom used to switch images
-                                    JavaScript integration into my home page
-                                    banner images so that they can be
-                                    constantly replaced, and in the future the
-                                    image needs to be replaced in fact do not
-                                    need to change the HTML and CSS and JS
-                                    parts, just need to re-upload the image
-                                    can be.<br><br>
+                                    After completing the website wireframe, 
+                                    I began developing the website. Meanwhile 
+                                    the content creators were working on the content, 
+                                    so in sprint 2 I had to make the basic framework of 
+                                    HTML and CSS first, and then follow the progress of 
+                                    the content creators to update the web content and add 
+                                    functionality in sprints 3, 4, and 5. In the process, 
+                                    our product owner was constantly testing and giving feedback, 
+                                    and I would make adjustments before the next regular meeting.
+                                    <br><br>
 
-
-                                    I was also learning and experimenting
-                                    with different JavaScript libraries, and
-                                    eventually I chose AOS .js for my webpage
-                                    scrolling animation because I only needed
-                                    to have something to display when
-                                    scrolling to the content Compared to
-                                    ScrollMagic, it s much more suitable for a
-                                    normal website.<br><br>
-
-
-                                    I also used Bootstrap for the slideshow
-                                    part of the website, which saves me the
-                                    time of making a responsive website. I
-                                    also used Fancybox to show the zoom
-                                    function, and Typed.js to make the
-                                    typewriter function for the headline,
-                                    which makes my homepage more playful
-                                    and cute. <br><br>
-
-
-                                    Finally, I used Leaflet.js to create a map, so
-                                    that even if Whac-A-Mole Website Gameto add a new
-                                    location in the future, it can be marked on
-                                    the map, which is very flexible and
-                                    convenient.<br><br>
                                     </p>
                                 </div>
                             
-                            <div id="lottie-animation2" class='col-12 col-6-lg'></div>
+                          
 
 
                         </div>

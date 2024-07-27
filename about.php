@@ -118,7 +118,7 @@
             <div class="fade skill-all">
                 <div class="grid">
                     <?php 
-                        $softskill = array('Communication', 'Teamwork', 'Problem Solving', 'Creativity', 'Time Management', 'Adaptability');
+                        $softskill = array('Communication', 'Teamwork', 'Problem Solving', 'Creativity', 'Time Manage', 'Adaptability','Analyze', 'Search', 'Learn', 'Hard Work', 'English', 'Mandarin');
                         foreach($softskill as $value){
                             echo "<div class='skillCard col-3 col-4-sm col-2-lg'>
                             <div class='iconC'>
@@ -197,13 +197,9 @@
                         </span>
                        
                         New Media Design and </br>Web Development</br>
-                    </p>
-                    
+                    </p>  
                 </div>
               </div>
-               
-
-              
             </div>
       
     </div>

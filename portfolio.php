@@ -51,7 +51,7 @@
                 <h5>Little Fish Cares Animal Adoption Website</h5>
      
                 <p>Little Fish Cares is a pet adoption organization in Vancouver. The purpose of this project is to demonstrate the use of HTML, CSS, JavaScript combined with other JavaScript libraries and JQ plugins to complete web pages.</p>
-               <div class='projectCardBottom'>
+                <div class='projectCardBottom'>
                 <div class='toolC'>
                 <span class='tool'><img src='./img/skill/coding/HTML.png' alt='HTML Logo'/></span>
                 <span class='tool'><img src='./img/skill/coding/CSS.png' alt='CSS Logo'/></span>
@@ -83,7 +83,6 @@
                 <span class='tool'><img src='./img/skill/coding/Visual Studio Code.png' alt='Visual Studio Code Logo'/></span>
                 <span class='tool'><img src='./img/skill/design/Figma.png' alt='Figma Logo'/></span>
                 <span class='tool'><img src='./img/skill/design/Illustrator.png' alt='Illustrator Logo'/></span>
-
                 </div>
                 <a href='project2.php'class='viewBtn1 btn2'>View</a>
                </div>
@@ -119,10 +118,9 @@
                 <p>Introduction： October is an original Accessories company, In this project I need to design App for they and create wireframe and interaction model using Figma and finally user testing using Maze. Modify the model based on the test results,  </p>
                 <div class='projectCardBottom'>
                     <div class='toolC'>
-                    <span class='tool'><img src='./img/skill/design/Figma.png' alt='Figma Logo'/></span>
-                    <span class='tool'><img src='./img/skill/design/Photoshop.png' alt='Photoshop Logo'/></span>
-                    <span class='tool'><img src='./img/skill/design/Illustrator.png' alt='Illustrator Logo'/></span>
-
+                        <span class='tool'><img src='./img/skill/design/Figma.png' alt='Figma Logo'/></span>
+                        <span class='tool'><img src='./img/skill/design/Photoshop.png' alt='Photoshop Logo'/></span>
+                        <span class='tool'><img src='./img/skill/design/Illustrator.png' alt='Illustrator Logo'/></span>
                     </div>
 
                      <a href='project4.php' class='viewBtn1 btn2'>View</a>   
