@@ -7,7 +7,7 @@
     <meta name="author" content="Alice Peng">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="dist/app.css">
-    <link rel="icon" type="image/x-icon" href="/img/logo/icon.png">
+    <link rel="icon" type="" href="/img/logo/icon.png">
 
     <!-- aos Animate On Scroll Library -->
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />

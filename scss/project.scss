@@ -31,6 +31,21 @@
             padding: 40px 20px;
         } 
 
+        .project5C{
+            width: 100%;
+            background-color:  	#72A08F;
+            border-radius: 60px 60px 0 0;
+            padding: 40px 20px;
+        } 
+
+        .project6C{
+            width: 100%;
+            background-color:  	#FFF8DC;
+            border-radius: 60px 60px 0 0;
+            padding: 40px 20px;
+
+        } 
+
 
         .projectInfo {
 
@@ -39,7 +54,19 @@
             }   
             .process{
                 padding-top: 80px;
-                padding-bottom:80px ;           
+                padding-bottom:80px ;   
+
+                
+                .demo{
+                    display: flex;
+                    align-items: baseline;
+                    justify-content: center;
+                    width: 100%;
+
+                    iframe{
+                        margin: 20px auto;
+                    }
+                }
              }
             .mockupC{
                 padding: 40px 0;
@@ -149,6 +176,14 @@
             }
             .toolBorder4{
                 border: 2.5px solid #D8BFD8;
+            }
+
+            .toolBorder5{
+                border: 2.5px solid #72A08F;
+            }
+
+            .toolBorder6{
+                border: 2.5px solid #FFF8DC;
             }
         } 
       .linkBtn{
