@@ -237,66 +237,119 @@
     color: v.$pc;
 }
 
-.ontherProject{
-    .project{
-        width: calc(100% - 16px - 16px);
-        margin:50px auto;
-        padding: 40px;
-        background-color: #0e0e0e;
-        border-radius: 30px;
-        border: 0.5px solid #2f2f2f;
-        
-        .projectImg{        
-            img{
-                width: 100%;
-            }
+.btnclass2 {
+    margin: 20px auto;
+    .nav-btn2 {
+        border-radius: 50%;
+        border: 1px solid v.$pink;
+        background-color: transparent;
+        color: v.$pink;
+        cursor: pointer;
+        padding: 18px 20px;
+        font-size: 16px;
+        margin: 0 0.5rem;
+        transition: background-color 0.3s, color 0.3s;
+
+        &:hover,
+        &.active {
+            background-color: v.$pink;
+            color: white;
         }
-        .projectInfo{
-            text-align: start;
-        }
-        h4{
-            font-size: v.$text-md;
-            color: v.$pc;
-            margin-top: 20px;
-            margin-bottom: 20px;
-
-
-        }
-
-        .btn2 {
-            background-image: linear-gradient(to right, #FAACAC 0%, #F7f26d  51%, #FAACAC  100%);
-            padding: 10px 20px;
-            text-align: center;
-            text-transform: uppercase;
-            transition: 0.5s;
-            background-size: 200% auto;
-            color: v.$white;            
-            border-radius: 20px;
-            border: 0 solid;
-            display: block;
-            font-weight: bold;
-            width: auto;
-            font-size: v.$text-base;
-            text-decoration: none;
-            margin-bottom: 0;
-            
-          }
-      
-          .btn2:hover {
-            background-position: right center; /* change the direction of the change here */
-            color:v.$black;
-            text-decoration: none;
-            transform: scale(1.1);
-          }
-
-          .btn2:hover i {
-            margin-left: 10px;
-          }
-    }  
+    }
 }
 
+
+.ontherProject{
+
+    .projects-container {
+        display: flex;
+        overflow-x: auto;
+        scroll-behavior: smooth;
+        padding: 0 20px;
+
+        .project {
+            flex: 0 0 80%; // Show three items at a time
+            box-sizing: border-box;
+            padding: 10px;
+            transition: transform 0.3s, box-shadow 0.3s;
+            background-color: v.$pink3;
+            border-radius: 30px;
+            border: 0.5px solid v.$pink5;
+            margin: 10px 20px;
+
+            .projectImg{        
+                img{
+                    width: 100%;
+                }
+            }
+            .projectInfo{
+                text-align: start;
+            }
+            h4{
+                font-size: v.$text-md;
+                color: v.$pc;
+                margin-top: 20px;
+                margin-bottom: 20px;
+
+
+            }
+
+            .btn2 {
+                background-image: linear-gradient(to right, #FAACAC 0%, #F7f26d  51%, #FAACAC  100%);
+                padding: 10px 20px;
+                text-align: center;
+                text-transform: uppercase;
+                transition: 0.5s;
+                background-size: 200% auto;
+                color: v.$white;            
+                border-radius: 20px;
+                border: 0 solid;
+                display: block;
+                font-weight: bold;
+                width: auto;
+                font-size: v.$text-base;
+                text-decoration: none;
+                margin-bottom: 0;
+                
+            }
+        
+            .btn2:hover {
+                background-position: right center; /* change the direction of the change here */
+                color:v.$black;
+                text-decoration: none;
+                transform: scale(1.1);
+            }
+
+            .btn2:hover i {
+                margin-left: 10px;
+            }
+    }  }
+}
+@media (min-width: 786px){
+    .ontherProject{
+
+        .projects-container {
+          
+    
+            .project {
+                flex: 0 0 40%; 
+            }
+        }
+    }
+}
  
 @media (min-width: 1024px)  {
+
+    .ontherProject{
+
+        .projects-container {
+          
+    
+            .project {
+                flex: 0 0 26%; 
+            }
+        }
+    }
     .singleProject{
            .project{
             margin-top: 100px;

@@ -54,7 +54,7 @@
             <img src='./img/photo/Alice03.png' alt='alice photo'>
         </div>
     </div>
-    <div class='aboutMe grid'>
+    <div class='aboutMe grid' data-aos="fade-up">
       
             <div class="col-12 col-4-md">
                 <h1 class='aboutUnderLine'>About Me</h1> 
@@ -74,7 +74,7 @@
       
     </div>
         
-    <div class="skill grid">
+    <div class="skill grid" >
         <h2 class="col-12">My Skills</h2>
         <div class='filter col-12'>
             <button onclick="showSlide(1)">Coding Skills</button>
@@ -140,7 +140,7 @@
         </div>
     </div>
 
-    <div class='experience grid'>
+    <div class='experience grid' data-aos="fade-up">
             <h2 class='col-12'>My Life Experience</h2>
       
             <div class="col-12 col-4-md" > 
@@ -204,7 +204,7 @@
       
     </div>
 
-    <div class='Testimonials grid'>
+    <div class='Testimonials grid' data-aos="fade-up">
     <h2 class='col-12'>Testimonials</h2>
 
     <div class="btnclass col-12">

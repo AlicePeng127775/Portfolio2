@@ -73,97 +73,97 @@
                             </div>
                         </div>
                         <div class='mockupC col-12 grid'>
-                            <div class='mockup col-12'><img src='./img/project/Mockup6.png' alt='Pokedex App Mockup'></div>
+                            <div class='col-1'></div>
+                            <div class='mockup col-10' data-aos="fade-up"><img src='./img/project/Mockup6.png' alt='Pokedex App Mockup'></div>
+                            <div class='col-1'></div>
                         </div>
                         
                           
 
-                        <div class='process col-12 grid'>
+                        <div class='process col-12 grid' style='background-color:#EDEDED11; padding:20px;' >
+
+                           
                             <div class='col-12 col-6-lg'>
-                                <h5>Brainstorm - </br>Information Architecture:</h5>
+                                    <h5>Report and Navigation:</h5>
+                                    <p>
+                                        The web page allows users to search for Pokemon by 
+                                        name and displays detailed information about the 
+                                        searched Pokemon. It fetches data from the PokeAPI 
+                                        to retrieve Pokemon information such as name, Pokedex 
+                                        ID, types, weight, and height. Users can either click 
+                                        the search button after typing the Pokemon name and 
+                                        Pokemon ID in the input field to trigger the search.
+                                        <br><br>
+                                        Additionally, the page displays a Pokedex list of the first 50 
+                                        Pokemon fetched from the PokeAPI. Users can load more Pokemon 
+                                        by clicking the "Load More" button at the bottom of the page.
+                                    </p>
 
-                                <p>
-                                Before designing a web page for a company, it is important to understand the company's main services, goals, missions, analyze the target audience, hypothetical scenarios, analyze the competitors.
-                                </p>
-                                </br>
-
-                                <h5>Design - Style Guide:</h5>
-                                <p>
-                                After completing the Brainstorm information architecture, before developing the website. We need to design a Style Guide for the company, which includes designing the logo, colors, fonts, buttons, wireframes, and mockups.
-                                </p>
                             </div>
-                            <div class="col-12 col-6-lg">
-                            <div style="position: relative; width: 100%; height: 0; padding-top: 56.2500%;
+
+                            <div class="col-12 col-6-lg" >
+                            <div style="position: relative; width: 100%; height: 0; padding-top: 70.7071%;
                             padding-bottom: 0; box-shadow: 0 2px 8px 0 rgba(63,69,81,0.16); margin-top: 1.6em; margin-bottom: 0.9em; overflow: hidden;
                             border-radius: 8px; will-change: transform;">
                             <iframe loading="lazy" style="position: absolute; width: 100%; height: 100%; top: 0; left: 0; border: none; padding: 0;margin: 0;"
-                                src="https:&#x2F;&#x2F;www.canva.com&#x2F;design&#x2F;DAFoS6Q87Uc&#x2F;iIO3nkjqEx8AHjNPwP2H9w&#x2F;view?embed" allowfullscreen="allowfullscreen" allow="fullscreen">
+                                src="https:&#x2F;&#x2F;www.canva.com&#x2F;design&#x2F;DAGL02eNDew&#x2F;DKIz0PrhXahprNgQwEfV8g&#x2F;view?embed" allowfullscreen="allowfullscreen" allow="fullscreen">
                             </iframe>
                             </div>
-
-                            </div>
-
-                        </div>
-                        
-                        <div class='process col-12 grid'>
-                            <div class="col-12 col-6-lg">
-                            <iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" width="100%" height="450" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fdesign%2FUX5J2rhHJYjz5tuDLmsFdT%2FLittle-Fish-Cares-Wireframe%3Fnode-id%3D341-56776%26t%3DHdzoDnMwK2tRyWPQ-1" allowfullscreen></iframe>
-
-                            </div>
-
-                            <div class="col-12 col-6-lg">
-                                <h5>Design - Wireframe:</h5>
-                                <p>
-                                After completing the Brainstorm information architecture, before developing the website. We need to design a Style Guide for the company, which includes designing the logo, colors, fonts, buttons, wireframes, and mockups.
-                                </p>
                             </div>
                         
                         </div>
                         <div class='process col-12 grid'>
-                                <div class='col-12 col-6-lg'>
-                                    <h5>Development - hand code:</h5>
-                                    <p>
-                                    In the programming, I will be taught in
-                                    the classroom used to switch images
-                                    JavaScript integration into my home page
-                                    banner images so that they can be
-                                    constantly replaced, and in the future the
-                                    image needs to be replaced in fact do not
-                                    need to change the HTML and CSS and JS
-                                    parts, just need to re-upload the image
-                                    can be.<br><br>
 
+                        <div class="col-12 col-4-lg ">
 
-                                    I was also learning and experimenting
-                                    with different JavaScript libraries, and
-                                    eventually I chose AOS .js for my webpage
-                                    scrolling animation because I only needed
-                                    to have something to display when
-                                    scrolling to the content Compared to
-                                    ScrollMagic, it s much more suitable for a
-                                    normal website.<br><br>
-
-
-                                    I also used Bootstrap for the slideshow
-                                    part of the website, which saves me the
-                                    time of making a responsive website. I
-                                    also used Fancybox to show the zoom
-                                    function, and Typed.js to make the
-                                    typewriter function for the headline,
-                                    which makes my homepage more playful
-                                    and cute. <br><br>
-
-
-                                    Finally, I used Leaflet.js to create a map, so
-                                    that even if Whac-A-Mole Website Gameto add a new
-                                    location in the future, it can be marked on
-                                    the map, which is very flexible and
-                                    convenient.<br><br>
-                                    </p>
+                                <div class='demo'>
+                                    <iframe src="https://appetize.io/embed/b_seb5pbw4gv3b36nldqg32odmdq" width="378px" height="800px" frameborder="0" scrolling="no"></iframe>
                                 </div>
                             
-                            <div id="lottie-animation2" class='col-12 col-6-lg'></div>
+                            </div>
+                           
+                            <div class='col-12 col-8-lg'>
+                                <h5>Functionality Description:</h5>
 
+                                <p>
+                                Firstly, this web page will display 150 first pokemon with index, 
+                                name and pokemon type with icon using the fetchPokemon() function,
+                                 it will fetches data for the first 150 Pokémon from the PokeAPI. 
+                                 It loops through Pokémon IDs from 1 to 150, fetching and storing 
+                                 their data, and then calls displayPokemon(pokemon) to display the 
+                                 fetched Pokémon on the webpage. Beside that, the system also includes 
+                                 modal display functions. When a Pokemon image is clicked, a modal window 
+                                 appears, displaying detailed information about the Pokémon, including an image, 
+                                 name, types, weight, and height.
+                                 <br><br>
+
+                                Next, i designed a search box on the top of web page, 
+                                it allow user to enter the pokemon name and click the search 
+                                button or simply press enter to search the pokemon. I use the 
+                                getPokemon(e) function manages the search functionality. 
+                                When a user enters a Pokemon name, it converts the name to 
+                                lowercase and fetches data from the PokeAPI by lowerCaseName(string) 
+                                function. If successful, it updates the .pokemonBox tag with the 
+                                Pokemon's image and details such as name, ID, types, weight, and height. 
+                                If the Pokemon is not found, an error message is displayed.
+
+                                <br><br>
+
+
+                                Lastly, is i design a Load More button for users to click and show more 
+                                Pokemon instead of just displaying 150 fixed pokemon. The fetchMorePokemon() 
+                                function will fetches more Pokemon in batches of 50 when the "Load More" button 
+                                is clicked. It updates the offset to keep track of the next batch and calls 
+                                displayPokemon(newPokemon, true) to append the new Pokémon to the existing 
+                                pokemon list at web page.
+
+
+                                </p>
+                                </br>
+
+                                
+                            </div>
+                            
 
                         </div>
 
@@ -172,32 +172,9 @@
 
         </div>
         <h2 class='other'>Other Project</h2>
-        <div class='ontherProject container grid' data-aos="fade-up">
-           
-                <div class='project col-12 col-6-sm col-6-md col-4-lg'>
-                    <div class='projectImg'><img src='./img/project/project2.png'  alt="Lumina online shopping Website"></div>
-                    <div class='projectInfo'>
-                        <h4>Lumina online shopping Website</h4>
-                        <a href='project2.php' class='viewBtn btn2'> View  <i class="fa-solid fa-arrow-right"></i> </a>
-                    </div>
-                </div>
-
-                <div class='project col-12 col-6-sm col-6-md col-4-lg'>
-                    <div class='projectImg'><img src='./img/project/project3.png' alt="Whac-A-Mole Website Game"></div>
-                    <div class='projectInfo'>
-                        <h4>Whac-A-Mole Website Game</h4>
-                        <a href='project3.php' class='viewBtn btn2'> View  <i class="fa-solid fa-arrow-right"></i> </a>
-                    </div>
-                </div>
-
-                <div class='project col-12 col-6-sm col-6-md col-4-lg'>
-                    <div class='projectImg'><img src='./img/project/project4.png' alt="October shopping app design"></div>
-                    <div class='projectInfo'>
-                        <h4>October shopping app design</h4>
-                        <a href='project4.php' class='viewBtn btn2'> View  <i class="fa-solid fa-arrow-right"></i> </a>
-                    </div>
-                </div>
-        </div>
+        <!----------------- Other Projct ------------------>
+        <?php require_once("partials/other.php") ?>
+        <!------------------------------------------------->
     </div>
 
     </main>

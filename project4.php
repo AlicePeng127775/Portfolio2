@@ -74,7 +74,7 @@
                             </div>
                         </div>
                         <div class='mockupC col-12 grid'>
-                            <div class='mockup col-12'><img src='./img/project/Mockup1.png' alt='October shopping app designsite Mockup'></div>
+                            <div class='mockup col-12'><img src='./img/project/Mockup4.png' alt='October shopping app designsite Mockup'></div>
                         </div>
                         
                           
@@ -206,6 +206,7 @@
             autoplay: true, // 是否自动播放
             path: 'https://lottie.host/62ecd630-5863-4f22-94ba-e80968fa0bb1/zCWiMOR3fs.json' // Lottie 文件的路径
         });
+
     </script>
 
 </body>

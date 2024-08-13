@@ -172,32 +172,9 @@
 
         </div>
         <h2 class='other'>Other Project</h2>
-        <div class='ontherProject container grid' data-aos="fade-up">
-           
-                <div class='project col-12 col-6-sm col-6-md col-4-lg'>
-                    <div class='projectImg'><img src='./img/project/project2.png'  alt="Lumina online shopping Website"></div>
-                    <div class='projectInfo'>
-                        <h4>Lumina online shopping Website</h4>
-                        <a href='project2.php' class='viewBtn btn2'> View  <i class="fa-solid fa-arrow-right"></i> </a>
-                    </div>
-                </div>
-
-                <div class='project col-12 col-6-sm col-6-md col-4-lg'>
-                    <div class='projectImg'><img src='./img/project/project3.png' alt="Whac-A-Mole Website Game"></div>
-                    <div class='projectInfo'>
-                        <h4>Whac-A-Mole Website Game</h4>
-                        <a href='project3.php' class='viewBtn btn2'> View  <i class="fa-solid fa-arrow-right"></i> </a>
-                    </div>
-                </div>
-
-                <div class='project col-12 col-6-sm col-6-md col-4-lg'>
-                    <div class='projectImg'><img src='./img/project/project4.png' alt="October shopping app design"></div>
-                    <div class='projectInfo'>
-                        <h4>October shopping app design</h4>
-                        <a href='project4.php' class='viewBtn btn2'> View  <i class="fa-solid fa-arrow-right"></i> </a>
-                    </div>
-                </div>
-        </div>
+        <!----------------- Other Projct ------------------>
+        <?php require_once("partials/other.php") ?>
+        <!------------------------------------------------->
     </div>
 
     </main>

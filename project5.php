@@ -10,6 +10,11 @@
     <script src="https://kit.fontawesome.com/92a4d8c871.js" crossorigin="anonymous"></script>
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/bodymovin/5.9.6/lottie.min.js"></script>
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css"/>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+
+
 
     <!-- Open Graph Meta Tags -->
         <meta property="og:title" content="Alice Peng - Narra Furniture App">
@@ -73,12 +78,21 @@
 
                             </div>
                         </div>
-                        <div class='mockupC col-12 grid'>
-                            <div class='mockup col-12'><img src='./img/project/Mockup5.png' alt='Narra Furniture App Mockup'></div>
+                        <div class='mockupC col-12 grid' style='background-color:#EDEDED11;'>
+                            <div class='col-1'></div>
+                            <div class='mockup col-10' data-aos="fade-up" ><img src='./img/project/Mockup5.png' alt='Narra Furniture App Mockup' ></div>
+                            <div class='col-1'></div>
                         </div>
-                        <div class='process col-12 grid'>
+                        <div class='process col-12 grid' data-aos="fade-right" >
+
+                                <div class="col-12 col-6-lg" >
+                                    <h5>In this project</h5>
+                                    <p>Our team had a project manager to manage the progress of the whole project, and also 3 designers from branding, designing logos, creating the wireframes of the webpage and apps, and I acted as the role of the developer to develop the webpage and apps. Below is our proposal. After this, there is my development log and the demo of the mobile app. You can view it at</p>
+                                
+                                </div>
                                
-                                <div class="col-12">
+                                <div class="col-12 col-6-lg">
+                                   
 
                                     <div style="position: relative; width: 100%; height: 0; padding-top: 56.2500%;
                                     padding-bottom: 0; box-shadow: 0 2px 8px 0 rgba(63,69,81,0.16); margin-top: 1.6em; margin-bottom: 0.9em; overflow: hidden;
@@ -91,9 +105,24 @@
 
 
                         </div>
+
+                        <div class='process col-12 grid' style='background-color:#EDEDED11;' data-aos="fade-left">
+                            <div class="col-1-lg"> </div>
+                            <div class="col-12 col-5-lg">
+                                <img src="./img/video/Narra.gif" alt="Animated GIF" width="100%">
+                            </div>
+
+                            <div class="col-1-lg"> </div>
+
+                            <div class="col-12 col-5-lg">
+                                <h5>Web Development and Email:</h5>
+                                <p>This time the development of web pages and email templates, are using basic HTML and CSS, and added AOS.js to add animation effects to the web pages. Because the web page is a bridge for users to download the app. And most people use mobile to read emails, so these two are responsive.</p>
+
+                            </div>
+                        </div>
                           
 
-                        <div class='process col-12 grid'>
+                        <div class='process col-12 grid' data-aos="fade-right">
 
                         
                            
@@ -145,32 +174,9 @@
 
         </div>
         <h2 class='other'>Other Project</h2>
-        <div class='ontherProject container grid' data-aos="fade-up">
-           
-                <div class='project col-12 col-6-sm col-6-md col-4-lg'>
-                    <div class='projectImg'><img src='./img/project/project2.png'  alt="Lumina online shopping Website"></div>
-                    <div class='projectInfo'>
-                        <h4>Lumina online shopping Website</h4>
-                        <a href='project2.php' class='viewBtn btn2'> View  <i class="fa-solid fa-arrow-right"></i> </a>
-                    </div>
-                </div>
-
-                <div class='project col-12 col-6-sm col-6-md col-4-lg'>
-                    <div class='projectImg'><img src='./img/project/project3.png' alt="Whac-A-Mole Website Game"></div>
-                    <div class='projectInfo'>
-                        <h4>Whac-A-Mole Website Game</h4>
-                        <a href='project3.php' class='viewBtn btn2'> View  <i class="fa-solid fa-arrow-right"></i> </a>
-                    </div>
-                </div>
-
-                <div class='project col-12 col-6-sm col-6-md col-4-lg'>
-                    <div class='projectImg'><img src='./img/project/project4.png' alt="October shopping app design"></div>
-                    <div class='projectInfo'>
-                        <h4>October shopping app design</h4>
-                        <a href='project4.php' class='viewBtn btn2'> View  <i class="fa-solid fa-arrow-right"></i> </a>
-                    </div>
-                </div>
-        </div>
+        <!----------------- Other Projct ------------------>
+            <?php require_once("partials/other.php") ?>
+        <!------------------------------------------------->
     </div>
 
     </main>
@@ -196,6 +202,8 @@
             autoplay: true, // 是否自动播放
             path: 'https://lottie.host/62ecd630-5863-4f22-94ba-e80968fa0bb1/zCWiMOR3fs.json' // Lottie 文件的路径
         });
+
+       
     </script>
 
 </body>
