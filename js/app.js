@@ -212,34 +212,6 @@ AOS.init({
 
     // Other Project
 
-    document.addEventListener('DOMContentLoaded', () => {
-        const prevBtn = document.querySelector('.prev-btn2');
-        const nextBtn = document.querySelector('.next-btn2');
-        const projectsContainer = document.querySelector('.projects-container');
-        let scrollPosition = 0;
-
-        prevBtn.addEventListener('click', () => {
-            scrollPosition -= projectsContainer.clientWidth / 3;
-            if (scrollPosition < 0) {
-                scrollPosition = 0;
-            }
-            projectsContainer.scrollTo({
-                left: scrollPosition,
-                behavior: 'smooth'
-            });
-        });
-
-        nextBtn.addEventListener('click', () => {
-            scrollPosition += projectsContainer.clientWidth / 3;
-            if (scrollPosition > projectsContainer.scrollWidth - projectsContainer.clientWidth) {
-                scrollPosition = projectsContainer.scrollWidth - projectsContainer.clientWidth;
-            }
-            projectsContainer.scrollTo({
-                left: scrollPosition,
-                behavior: 'smooth'
-            });
-        });
-    });
 
   
     

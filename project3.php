@@ -71,10 +71,7 @@
 
                             </div>
                         </div>
-                        <!-- <div class='mockupC col-12 grid'>
-                            <div class='mockup col-12'><img src='./img/project/Mockup1.png' alt='Whac-A-Mole Website Gameweb site Mockup'></div>
-                        </div> -->
-                        
+                    
                           
 
                         <div class='process col-12 grid'>
@@ -112,12 +109,7 @@
                                 </p>
                             </div>
                             <div class="col-12 col-6-lg">
-                            <div style="position: relative; width: 100%; height: 0; padding-top: 56.2500%;
-                            padding-bottom: 0; box-shadow: 0 2px 8px 0 rgba(63,69,81,0.16); margin-top: 1.6em; margin-bottom: 0.9em; overflow: hidden;
-                            border-radius: 8px; will-change: transform;">
-                            <iframe loading="lazy" style="position: absolute; width: 100%; height: 100%; top: 0; left: 0; border: none; padding: 0;margin: 0;"
-                                src="https:&#x2F;&#x2F;www.canva.com&#x2F;design&#x2F;DAFoS6Q87Uc&#x2F;iIO3nkjqEx8AHjNPwP2H9w&#x2F;view?embed" allowfullscreen="allowfullscreen" allow="fullscreen">
-                            </iframe>
+                                 <div id="lottie-animation2" class='col-12 col-6-lg'></div>
                             </div>
 
                             </div>
@@ -126,8 +118,7 @@
                         
                         <div class='process col-12 grid'>
                             <div class="col-12 col-6-lg">
-                            <div id="lottie-animation2" class='col-12 col-6-lg'></div>
-
+                                <img src='./img/project/whac-a-mole.gif' alt='whac-a-mole website gif' width="90%">
                             </div>
 
                             <div class="col-12 col-6-lg">
@@ -199,6 +190,36 @@
             autoplay: true, // 是否自动播放
             path: 'https://lottie.host/62ecd630-5863-4f22-94ba-e80968fa0bb1/zCWiMOR3fs.json' // Lottie 文件的路径
         });
+       //other project
+
+       document.addEventListener('DOMContentLoaded', () => {
+        const prevBtn = document.querySelector('.prev-btn2');
+        const nextBtn = document.querySelector('.next-btn2');
+        const projectsContainer = document.querySelector('.projects-container');
+        let scrollPosition = 0;
+
+        prevBtn.addEventListener('click', () => {
+            scrollPosition -= projectsContainer.clientWidth / 3;
+            if (scrollPosition < 0) {
+                scrollPosition = 0;
+            }
+            projectsContainer.scrollTo({
+                left: scrollPosition,
+                behavior: 'smooth'
+            });
+        });
+
+        nextBtn.addEventListener('click', () => {
+            scrollPosition += projectsContainer.clientWidth / 3;
+            if (scrollPosition > projectsContainer.scrollWidth - projectsContainer.clientWidth) {
+                scrollPosition = projectsContainer.scrollWidth - projectsContainer.clientWidth;
+            }
+            projectsContainer.scrollTo({
+                left: scrollPosition,
+                behavior: 'smooth'
+            });
+        });
+    });
     </script>
 
 </body>

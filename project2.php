@@ -90,8 +90,7 @@
                                 </p>
                             </div>
                             <div class="col-12 col-6-lg">
-                            <iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" width="100%" height="450" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fdesign%2FUX5J2rhHJYjz5tuDLmsFdT%2FLittle-Fish-Cares-Wireframe%3Fnode-id%3D341-56776%26t%3DHdzoDnMwK2tRyWPQ-1" allowfullscreen></iframe>
-                            </div>
+                            <iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" width="100%" height="450" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fdesign%2FYzZLlN0ZW1kIdN0OwBsqAW%2FLumina%3Fnode-id%3D0-1%26t%3DgujyOtXLijCm3Y2P-1" allowfullscreen></iframe>                            </div>
                             </div>
                         </div>
                         <div class='process col-12 grid'>
@@ -151,6 +150,37 @@
             autoplay: true, // 是否自动播放
             path: 'https://lottie.host/62ecd630-5863-4f22-94ba-e80968fa0bb1/zCWiMOR3fs.json' // Lottie 文件的路径
         });
+
+       //other project
+
+       document.addEventListener('DOMContentLoaded', () => {
+        const prevBtn = document.querySelector('.prev-btn2');
+        const nextBtn = document.querySelector('.next-btn2');
+        const projectsContainer = document.querySelector('.projects-container');
+        let scrollPosition = 0;
+
+        prevBtn.addEventListener('click', () => {
+            scrollPosition -= projectsContainer.clientWidth / 3;
+            if (scrollPosition < 0) {
+                scrollPosition = 0;
+            }
+            projectsContainer.scrollTo({
+                left: scrollPosition,
+                behavior: 'smooth'
+            });
+        });
+
+        nextBtn.addEventListener('click', () => {
+            scrollPosition += projectsContainer.clientWidth / 3;
+            if (scrollPosition > projectsContainer.scrollWidth - projectsContainer.clientWidth) {
+                scrollPosition = projectsContainer.scrollWidth - projectsContainer.clientWidth;
+            }
+            projectsContainer.scrollTo({
+                left: scrollPosition,
+                behavior: 'smooth'
+            });
+        });
+    });
     </script>
 
 </body>

@@ -52,8 +52,10 @@
     <button class="filter-btn" data-filter="develop">Develop</button>
 </div>
 
+
 <div class='allProject container grid'>
-    <div class='project grid col-12 col-4-lg' data-aos="fade-up" data-category="website develop design">
+    
+    <div class='project grid col-12 col-4-lg' data-category="website develop design">
         <div class='projectImg col-12'><img src='./img/project/project1.png' alt="Little Fish Cares website"></div>
         <div class='projectInfo col-12'>
             <h5>Little Fish Cares Animal Adoption Website</h5>
@@ -72,7 +74,7 @@
         </div>
     </div>
 
-    <div class='project grid col-12 col-4-lg' data-aos="fade-up" data-category="website develop design">
+    <div class='project grid col-12 col-4-lg'  data-category="website develop design">
         <div class='projectImg col-12'><img src='./img/project/project2.png' alt="Lumina online shopping Website"></div>
         <div class='projectInfo col-12'>
             <h5>Lumina Online Shopping Website</h5>
@@ -93,7 +95,7 @@
         </div>
     </div>
 
-    <div class='project grid col-12 col-4-lg' data-aos="fade-up" data-category="website develop design">
+    <div class='project grid col-12 col-4-lg' data-category="website develop design">
         <div class='projectImg col-12'><img src='./img/project/project3.png' alt="Whac-A-Mole Website Game"></div>
         <div class='projectInfo col-12'>
             <h5>Whac-A-Mole Website Game</h5>
@@ -111,7 +113,7 @@
         </div>
     </div>
 
-    <div class='project grid col-12 col-4-lg' data-aos="fade-up" data-category=" design mobileApp">
+    <div class='project grid col-12 col-4-lg'  data-category=" design mobileApp">
         <div class='projectImg col-12'><img src='./img/project/project4.png' alt="October shopping app design"></div>
         <div class='projectInfo col-12'>
             <h5>October Shopping App Design</h5>
@@ -127,7 +129,7 @@
         </div>
     </div>
 
-    <div class='project grid col-12 col-4-lg' data-aos="fade-up" data-category="mobileApp develop">
+    <div class='project grid col-12 col-4-lg' data-category="mobileApp develop">
         <div class='projectImg col-12'><img src='./img/project/project5.png' alt="Narra Furniture App"></div>
         <div class='projectInfo col-12'>
             <h5>Narra Furniture App</h5>
@@ -146,7 +148,7 @@
         </div>
     </div>
 
-    <div class='project grid col-12 col-4-lg' data-aos="fade-up" data-category="mobileApp develop">
+    <div class='project grid col-12 col-4-lg'  data-category="mobileApp develop">
         <div class='projectImg col-12'><img src='./img/project/project6.png' alt="Pokedex App"></div>
         <div class='projectInfo col-12'>
             <h5>Pokedex</h5>

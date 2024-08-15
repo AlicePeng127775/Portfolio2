@@ -200,6 +200,37 @@
             autoplay: true, // 是否自动播放
             path: 'https://lottie.host/62ecd630-5863-4f22-94ba-e80968fa0bb1/zCWiMOR3fs.json' // Lottie 文件的路径
         });
+
+    //other project
+
+    document.addEventListener('DOMContentLoaded', () => {
+        const prevBtn = document.querySelector('.prev-btn2');
+        const nextBtn = document.querySelector('.next-btn2');
+        const projectsContainer = document.querySelector('.projects-container');
+        let scrollPosition = 0;
+
+        prevBtn.addEventListener('click', () => {
+            scrollPosition -= projectsContainer.clientWidth / 3;
+            if (scrollPosition < 0) {
+                scrollPosition = 0;
+            }
+            projectsContainer.scrollTo({
+                left: scrollPosition,
+                behavior: 'smooth'
+            });
+        });
+
+        nextBtn.addEventListener('click', () => {
+            scrollPosition += projectsContainer.clientWidth / 3;
+            if (scrollPosition > projectsContainer.scrollWidth - projectsContainer.clientWidth) {
+                scrollPosition = projectsContainer.scrollWidth - projectsContainer.clientWidth;
+            }
+            projectsContainer.scrollTo({
+                left: scrollPosition,
+                behavior: 'smooth'
+            });
+        });
+    });
     </script>
 
 </body>
